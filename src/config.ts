@@ -5,10 +5,11 @@ export const getInfos = () : Info[] => {
 		{ id: 1, content: "First item content" },
 		{ id: 2, content: "Second item content" },
 		{ id: 3, content: "Third item content" },
-		{ id: 4, content: "Fourth item content" }
+		{ id: 4, content: "Fourth item content" },
+		{ id: 5, content: "Fifth item content" },
 	];
 }
 
 export const getVersion = () : string => {
-	return "0.00.15";
+	return "0.00.16";
 }
