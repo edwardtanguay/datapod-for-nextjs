@@ -11,5 +11,5 @@ export const getInfos = () : Info[] => {
 }
 
 export const getVersion = () : string => {
-	return "0.00.22";
+	return "0.00.23";
 }
