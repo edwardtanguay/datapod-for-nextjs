@@ -20,11 +20,11 @@ export default function DeleteButton({ id }: { id: number }) {
 	};
 
 	return (
-		<button
+		<span
 			onClick={handleDelete}
-			className="ml-2 px-1 bg-red-500 text-white rounded hover:bg-red-600"
+		className="text-red-500 cursor-pointer"
 		>
 			<FaRegTrashAlt />
-		</button>
+		</span>
 	);
 }
