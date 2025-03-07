@@ -4,7 +4,7 @@ import Link from "next/link"
 export default async function About() {
 	// Use absolute URL with process.env or a hardcoded base URL
 	// const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3670'}/api/infos`);
-	const response = await fetch(process.env.SITE_URL + '/api/infos');
+	const response = await fetch(process.env.SITE_URL + '/api/infos', { cache: 'no-store' });
 	const infos: Info[] = await response.json();
 
 	return (
