@@ -1,7 +1,9 @@
-import * as config from '@/config';
 export default async function Page({ params }: { params: Promise<{ id: string }> }) {
 	const { id } = (await params);
-	const infos = config.getInfos();
+	
+	// Fetch infos from backend route
+	const response = await fetch(`/api/infos`);
+	const infos = await response.json();
 	const info = infos.find(m => m.id === Number(id));
 
 	return (
