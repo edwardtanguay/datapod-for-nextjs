@@ -1,6 +1,8 @@
-import * as config from '@/config';
+import { readFileSync } from 'fs';
+import { join } from 'path';
 
 export async function GET() {
-    const infos = config.getInfos()
+    const dataPath = join(process.cwd(), 'src', 'data', 'infos.json');
+    const infos = JSON.parse(readFileSync(dataPath, 'utf-8'));
     return Response.json(infos);
 }
