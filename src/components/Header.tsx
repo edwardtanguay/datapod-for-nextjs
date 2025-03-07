@@ -6,13 +6,13 @@ export const Header = () => {
 	const activeSegment = useSelectedLayoutSegment();
 	return (
 		<div>
-			<h1 className="text-xl sm:text-3xl py-2 px-4 sm:py-4 sm:px-4">Datapod for Next.js 0.00.10</h1>
+			<h1 className="text-xl sm:text-3xl py-2 px-4 sm:py-4 sm:px-4">Datapod for Next.js 0.00.11</h1>
 			<nav className="p-2 mainnav bg-slate-300 pl-4">
 				<ul className="flex gap-x-2 gap-y-0 flex-wrap">
 					<li>
 						<Link
 							href="/"
-							className={`border-0 ${activeSegment === null ? 'text-orange-800' : ''}`}
+							className={`border-0 ${activeSegment === null ? 'menuHighlight' : ''}`}
 						>
 							Welcome
 						</Link>
@@ -20,7 +20,7 @@ export const Header = () => {
 					<li>
 						<Link
 							href="/info"
-							className={`border-0 ${activeSegment === 'info' ? 'text-orange-800' : ''}`}
+							className={`border-0 ${activeSegment === 'info' ? 'menuHighlight' : ''}`}
 						>
 							Info
 						</Link>
@@ -28,7 +28,7 @@ export const Header = () => {
 					<li>
 						<Link
 							href="/about"
-							className={`border-0 ${activeSegment === 'about' ? 'text-orange-800' : ''}`}
+							className={`border-0 ${activeSegment === 'about' ? 'menuHighlight' : ''}`}
 						>
 							About
 						</Link>
