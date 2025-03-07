@@ -1,6 +1,6 @@
 import * as config from '@/config';
-export default function Page({ params }: { params: { id: string } }) {
-	const { id } = params;
+export default async function Page({ params }: { params: Promise<{ id: string }> }) {
+	const { id } = (await params);
 	const infos = config.getInfos();
 	const info = infos.find(m => m.id === Number(id));
 
