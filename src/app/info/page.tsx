@@ -12,7 +12,7 @@ export default async function InfoPage() {
 		<div className="p-4">
 			<ul>
 				{infos.map((info) => (
-					<li key={info.id}>
+					<li key={info.id} className="mb-2">
 						<Link
 							href={`info/${info.id}`}
 						>

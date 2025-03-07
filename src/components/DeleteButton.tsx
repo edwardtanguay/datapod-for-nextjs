@@ -1,5 +1,7 @@
 'use client';
 
+import { FaRegTrashAlt } from "react-icons/fa";
+
 export default function DeleteButton({ id }: { id: number }) {
 	const handleDelete = async () => {
 		try {
@@ -20,9 +22,9 @@ export default function DeleteButton({ id }: { id: number }) {
 	return (
 		<button
 			onClick={handleDelete}
-			className="ml-2 px-2 py-1 bg-red-500 text-white rounded hover:bg-red-600"
+			className="ml-2 px-1 bg-red-500 text-white rounded hover:bg-red-600"
 		>
-			Delete
+			<FaRegTrashAlt />
 		</button>
 	);
 }
