@@ -4,7 +4,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
 	const { id } = (await params);
 
 	// Fetch infos from backend route
-	const response = await fetch(process.env.SITE_URL + `/api/info/${id}`);
+	const response = await fetch(process.env.SITE_URL + `/api/infos/${id}`);
 	const info: Info = await response.json();
 
 	return (
