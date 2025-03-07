@@ -4,7 +4,7 @@ export default function Home() {
 	return (
 		<div>
 			<p>Welcome to this site.</p>
-			<p>{config.getSiteLocation()}</p>
+			<p>{config.siteLocation()}</p>
 		</div>
 	);
 }
