@@ -1,6 +1,9 @@
+"use client"
 import Link from "next/link"
+import { useSelectedLayoutSegment } from 'next/navigation';
 
 export const Header = () => {
+	const activeSegment = useSelectedLayoutSegment();
 	return (
 		<div>
 			<h1 className="text-xl sm:text-3xl py-2 px-4 sm:py-4 sm:px-4">Datapod for Next.js 0.09</h1>
@@ -9,6 +12,7 @@ export const Header = () => {
 					<li>
 						<Link
 							href="/"
+							className={`border-0 ${activeSegment === null ? 'menuHighlight' : ''}`}
 						>
 							Welcome
 						</Link>
@@ -16,6 +20,7 @@ export const Header = () => {
 					<li>
 						<Link
 							href="/info"
+							className={`border-0 ${activeSegment === 'info' ? 'menuHighlight' : ''}`}
 						>
 							Info
 						</Link>
@@ -23,6 +28,7 @@ export const Header = () => {
 					<li>
 						<Link
 							href="/about"
+							className={`border-0 ${activeSegment === 'about' ? 'menuHighlight' : ''}`}
 						>
 							About
 						</Link>
