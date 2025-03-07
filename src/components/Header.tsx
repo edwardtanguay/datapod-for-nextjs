@@ -6,7 +6,10 @@ export const Header = () => {
 	const activeSegment = useSelectedLayoutSegment();
 	return (
 		<div>
-			<h1 className="text-xl sm:text-3xl py-2 px-4 sm:py-4 sm:px-4">Datapod for Next.js 0.00.11</h1>
+			<div className="flex justify-between py-2 px-4 sm:py-4 sm:px-4">
+				<h1 className="text-xl sm:text-3xl">Datapod for Next.js</h1>
+				<div className="text-xs">0.00.11</div>
+			</div>
 			<nav className="p-2 mainnav bg-slate-300 pl-4">
 				<ul className="flex gap-x-2 gap-y-0 flex-wrap">
 					<li>
