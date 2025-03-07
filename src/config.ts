@@ -2,7 +2,7 @@ import * as config from "./config";
 import { SiteLocation } from "./types";
 
 export const version = (): string => {
-	return "0.00.29";
+	return "0.00.30";
 };
 
 export const siteLocation = (): SiteLocation => {
