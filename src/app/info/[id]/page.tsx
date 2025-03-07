@@ -1,10 +1,7 @@
-const infos = [
-	{ id: 1, content: "First item content" },
-	{ id: 2, content: "Second item content" },
-	{ id: 3, content: "Third item content" }
-];
+import * as config from '@/config';
 export default function Page({ params }: { params: { id: string } }) {
 	const { id } = params;
+	const infos = config.getInfos();
 	const info = infos.find(m => m.id === Number(id));
 
 	return (

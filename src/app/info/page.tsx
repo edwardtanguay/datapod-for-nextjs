@@ -1,11 +1,8 @@
 import Link from "next/link"
+import * as config from '@/config';
 
 export default function About() {
-	const infos = [
-		{ id: 1, content: "First item content" },
-		{ id: 2, content: "Second item content" },
-		{ id: 3, content: "Third item content" }
-	];
+	const infos = config.getInfos();
 
 	return (
 		<div className="p-4">
