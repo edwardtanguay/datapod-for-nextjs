@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-export default function AboutPage() {
+export default function ShowcasesPage() {
 	const localImagePath = "/images/snape.jpg";
 	const externalImageUrl =
 		"https://edwardtanguay.vercel.app/share/images/employees/employee_1.jpg";
 	return (
 		<div>
-			<p>This page shows various features of Next.js.</p>
+			<p>This page showcases various components and features.</p>
 
 			<h2 className="text-2xl mt-3 mb-2">next/image</h2>
 

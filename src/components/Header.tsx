@@ -35,12 +35,12 @@ export const Header = () => {
 					</li>
 					<li>
 						<Link
-							href="/about"
+							href="/showcases"
 							className={`border-0 ${
-								activeSegment === "about" ? "menuHighlight" : ""
+								activeSegment === "showcases" ? "menuHighlight" : ""
 							}`}
 						>
-							About
+							Showcases
 						</Link>
 					</li>
 				</ul>
