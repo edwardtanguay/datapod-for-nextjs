@@ -1,3 +1,4 @@
+import DeleteButton from "@/components/DeleteButton";
 import { Info } from "@/types";
 import Link from "next/link"
 
@@ -17,6 +18,7 @@ export default async function InfoPage() {
 						>
 							{info.content}
 						</Link>
+						<DeleteButton id={info.id} />
 					</li>
 				))}
 			</ul>
