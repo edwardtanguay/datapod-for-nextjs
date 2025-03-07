@@ -6,18 +6,11 @@ export async function GET(
   { params }: { params: { id: string } }
 ) {
   const id = parseInt(params.id);
-  
-  // Get all info items
   const infos = getInfos();
-  
-  // Find the specific info by id
-  const info = infos.find(item => item.id === id);
+  const info = infos.find(info => info.id === id);
   
   if (!info) {
-    return NextResponse.json(
-      { error: `Info with id ${id} not found` },
-      { status: 404 }
-    );
+    return NextResponse.json({ error: "Info not found" }, { status: 404 });
   }
   
   return NextResponse.json(info);
