@@ -1,8 +1,9 @@
+import { Info } from "@/types";
 import Link from "next/link"
-import * as config from '@/config';
 
-export default function About() {
-	const infos = config.getInfos();
+export default async function About() {
+	const response = await fetch(`http://localhost:3670/api/infos`);
+	const infos: Info[] = await response.json();
 
 	return (
 		<div className="p-4">
