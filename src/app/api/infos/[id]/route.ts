@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { Info } from '@/types';
 
 export async function GET(
   request: NextRequest,
@@ -9,7 +10,7 @@ export async function GET(
     const { id } = await params;
   const numericId = parseInt(id);
   const dataPath = join(process.cwd(), 'src', 'data', 'infos.json');
-  const infos = JSON.parse(readFileSync(dataPath, 'utf-8'));
+  const infos: Info[] = JSON.parse(readFileSync(dataPath, 'utf-8'));
   const info = infos.find(info => info.id === numericId);
   
   if (!info) {
