@@ -4,7 +4,7 @@ export default async function Page({ params }: { params: Promise<{ id: string }>
 	const { id } = (await params);
 
 	// Fetch infos from backend route
-	const response = await fetch(`http://localhost:3670/api/infos`);
+	const response = await fetch(process.env.SITE_URL + '/api/infos');
 	const infos: Info[] = await response.json();
 	const info = infos.find(m => m.id === Number(id));
 
