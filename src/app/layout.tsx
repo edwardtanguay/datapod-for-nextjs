@@ -29,7 +29,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
-        <div className="min-h-screen font-[family-name:var(--font-geist-sans)]">
+        <div className="p-4 min-h-screen font-[family-name:var(--font-geist-sans)]">
           <main className="flex flex-col gap-4 sm:gap-8 row-start-2 sm:items-start">
             {children}
           </main>
