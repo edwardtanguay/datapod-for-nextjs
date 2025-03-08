@@ -2,6 +2,8 @@
 
 This is the Datapod implementation for Next.js 15.
 
+https://github.com/edwardtanguay/datapod-for-nextjs
+
 ## Setup
 
 -   `npm i`
@@ -9,4 +11,5 @@ This is the Datapod implementation for Next.js 15.
 
 ## Features
 
--   **404 Page**: for any route and even if you give an id that does not exist in e.g. http://localhost:3670/info/222222
+-   **404 Page**
+    -   for any route and even if you give an id that does not exist in e.g. http://localhost:3670/info/222222
