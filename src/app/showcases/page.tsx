@@ -16,7 +16,7 @@ export default function ShowcasesPage() {
 				alt="employee 001"
 				width={200}
 				height={200}
-				className="w-64 h-64 rounded-2xl shadow-2xl border-4 border-blue-500 
+				className="w-[200px] h-[200px] rounded-2xl shadow-2xl border-4 border-blue-500 
          hover:scale-110 hover:rotate-6 transition-transform duration-500 ease-in-out
          brightness-110 contrast-125"
 			/>
