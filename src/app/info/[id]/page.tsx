@@ -8,10 +8,9 @@ export default async function Page({
 }) {
 	const { id } = await params;
 
-	// Fetch infos from backend route
 	const response = await fetch(process.env.SITE_URL + `/api/infos/${id}`);
 	if (!response.ok) {
-		return <NotFound/>
+		return <NotFound />;
 	} else {
 		const info: Info = await response.json();
 
