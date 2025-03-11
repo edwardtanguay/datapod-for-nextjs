@@ -55,6 +55,10 @@ ricordare: REG
 caricare: *, -hi, *, -hiamo, *, *
 apportare: REG (apportare delle modifiche, make some changes)
 spostare: REG (abbiamo spostato il file di testo)
+esportare: REG
+ascoltare: REG
+cambiare: *, cambi, *, *, *, *
+aggiornare: REG
 
 == ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
@@ -90,6 +94,8 @@ nascere
 descrivere
 permettere: REG
 ottenere: ottengo, ottieni, ottiene, *, *, ottengono
+accedere: REG (Accadeva sempre quando aggiornavamo il software. It used to happen every time we updated the software.)
+contenere: contengo, contieni, contiene, *, *, contengono
 
 
 == IRE =================================
@@ -105,7 +111,7 @@ dire: dico, dici, dice, diciamo, *, dicono
 
 partire: REG
 aprire: REG
-restituire -isco, -isci, -isce, *, *, -iscono
+restituire: -isco, -isci, -isce, *, *, -iscono
 
 capire: -isco, -isci, -isce, *, *, -iscono
 finire: -isco, -isci, -isce, *, *, -iscono
