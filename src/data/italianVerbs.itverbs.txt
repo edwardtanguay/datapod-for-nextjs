@@ -28,6 +28,9 @@ arrivare
 mangiare
 provare
 continuare
+creare
+testare
+cercare: *, -hi, *, -hiamo, *, *
 
 eliminare
 cancellare
@@ -42,10 +45,16 @@ utilizzare
 incollare
 notare
 cliccare
-applicare
+applicare: *, -hi, *, -hiamo, *, *
 entrare
 funzionare
 inviare
+scaricare: *, -hi, *, -hiamo, *, *
+impostare: REG
+ricordare: REG
+caricare: *, -hi, *, -hiamo, *, *
+apportare: REG (apportare delle modifiche, make some changes)
+spostare: REG (abbiamo spostato il file di testo)
 
 == ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
@@ -68,6 +77,7 @@ prendere
 leggere
 chiudere
 ricevere
+scegliere: scelgo, scegli, *, scegliamo, *, scelgono 
 
 rimanere
 nascere
@@ -78,6 +88,8 @@ rendere
 corrispondere
 nascere
 descrivere
+permettere: REG
+ottenere: ottengo, ottieni, ottiene, *, *, ottengono
 
 
 == IRE =================================
@@ -91,9 +103,9 @@ COND: -irei, -iresti, -irebbe, -iremmo, -ireste, -irebbero
 venire - vengo, vieni, viene, veniamo, venite, vengono
 dire: dico, dici, dice, diciamo, *, dicono
 
-partire
-aprire
-restituire - -isco, -isci, -isce, *, *, -iscono
+partire: REG
+aprire: REG
+restituire -isco, -isci, -isce, *, *, -iscono
 
 capire: -isco, -isci, -isce, *, *, -iscono
 finire: -isco, -isci, -isce, *, *, -iscono
@@ -103,8 +115,9 @@ morire: /io, *, *, *, *, /iono
 pulire: -isco, -isci, -isce, *, *, -iscono
 uscire: esco, esci, esce, *, *, escono
 fornire: -isco, -isci, -isce, *, *, -iscono
-dormire
+dormire: REG
 inserire: -isco, -isci, -isce, *, *, -iscono
+eseguire: REG+
 
 
 =======================================
