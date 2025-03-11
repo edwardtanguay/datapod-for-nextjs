@@ -76,6 +76,8 @@ rimuovere
 risolvere
 rendere
 corrispondere
+nascere
+descrivere
 
 
 == IRE =================================
@@ -87,20 +89,23 @@ FUTU: -irò, -irai, -irà, -iremo, -irete, -iranno
 COND: -irei, -iresti, -irebbe, -iremmo, -ireste, -irebbero
 
 venire - vengo, vieni, viene, veniamo, venite, vengono
-dire
+dire: dico, dici, dice, diciamo, *, dicono
 
 partire
 aprire
-restituire - restituisco, restituisci, restituisce, restituiamo, restituite, restituiscono
+restituire - -isco, -isci, -isce, *, *, -iscono
 
-capire
-finire
-apparire
-morire
-pulire
-uscire
-fornire
+capire: -isco, -isci, -isce, *, *, -iscono
+finire: -isco, -isci, -isce, *, *, -iscono
+definire: -isco, -isci, -isce, *, *, -iscono
+apparire: /io, *, *, *, *, /iono
+morire: /io, *, *, *, *, /iono
+pulire: -isco, -isci, -isce, *, *, -iscono
+uscire: esco, esci, esce, *, *, escono
+fornire: -isco, -isci, -isce, *, *, -iscono
 dormire
+inserire: -isco, -isci, -isce, *, *, -iscono
+
 
 =======================================
 
