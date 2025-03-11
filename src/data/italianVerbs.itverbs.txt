@@ -17,7 +17,7 @@ COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
 stare
 fare
-andare
+andare: vado, vai, va, *, *, vanno
 dare
 
 parlare
@@ -34,7 +34,7 @@ cercare: *, -hi, *, -hiamo, *, *
 
 eliminare
 cancellare
-assicurare
+assicurare: REG
 completare
 passare
 guidare
@@ -50,15 +50,19 @@ entrare
 funzionare
 inviare
 scaricare: *, -hi, *, -hiamo, *, *
-impostare: REG
+impostare: REG (Imposto la password del database. I set the database password.)
 ricordare: REG
 caricare: *, -hi, *, -hiamo, *, *
 apportare: REG (apportare delle modifiche, make some changes)
 spostare: REG (abbiamo spostato il file di testo)
 esportare: REG
+importare: REG
 ascoltare: REG
 cambiare: *, cambi, *, *, *, *
 aggiornare: REG
+analizzare: REG
+mostrare: REG
+salvare: REG
 
 == ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
@@ -70,12 +74,11 @@ COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
 avere
 essere
-volere
-	- visto
+volere: ...(visto)
 dovere
 potere
 
-sapere - so, sai, sa, sappiamo, sapete, sanno
+sapere: so, sai, sa, sappiamo, sapete, sanno
 vendere
 prendere
 leggere
@@ -96,6 +99,7 @@ permettere: REG
 ottenere: ottengo, ottieni, ottiene, *, *, ottengono
 accedere: REG (Accadeva sempre quando aggiornavamo il software. It used to happen every time we updated the software.)
 contenere: contengo, contieni, contiene, *, *, contengono
+mettere: REG
 
 
 == IRE =================================
@@ -124,6 +128,7 @@ fornire: -isco, -isci, -isce, *, *, -iscono
 dormire: REG
 inserire: -isco, -isci, -isce, *, *, -iscono
 eseguire: REG+
+convertire: REG
 
 
 =======================================
