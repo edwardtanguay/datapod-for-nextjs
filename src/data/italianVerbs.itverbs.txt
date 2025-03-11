@@ -1,0 +1,153 @@
+/*
+PRES: Presente
+PAPR: Passato prossimo - ho/hai/ha/abbiamo/avete/hanno, sono/sei/è/siamo/siete/sono
+IMPE: Imperfetto
+PARE: Passato remoto
+FUTU: Futuro semplice
+COND: Condizionale presente
+*/
+
+== ARE =================================
+PRES: -o, -i, -a, -iamo, -ate, -ano 
+PAPR: ho/sono -ato
+IMPE: -avo, -avi, -ava, -avamo, -avate, -avano
+PARE: -ai, -asti, -ò, -ammo, -aste, -arono
+FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
+COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
+
+stare
+fare
+andare
+dare
+
+parlare
+pensare
+chiamare
+lasciare
+arrivare
+mangiare
+provare
+continuare
+
+eliminare
+cancellare
+assicurare
+completare
+passare
+guidare
+guardare
+sperare
+iniziare
+utilizzare
+incollare
+notare
+cliccare
+applicare
+
+== ERE =================================
+PRES: -o, -i, -e, -iamo, -ete, -ono 
+PAPR: ho/sono -uto
+IMPE: -evo, -evi, -eva, -evamo, -evate, -evano
+PARE: -ei, -esti, -é, -emmo, -este, -erono (etti, -, ette, -, -, ettero)
+FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
+COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
+
+avere
+essere
+volere
+	- visto
+dovere
+potere
+
+sapere
+vendere
+prendere
+leggere
+chiudere
+
+rimanere
+nascere
+aggiungere
+rimuovere
+risolvere
+rendere
+
+
+== IRE =================================
+PRES: -o, -i, -e, -iamo, -ite, -ono 
+PAPR: ho/sono -ito
+IMPE: -ivo, -ivi, -iva, -ivamo, -ivate, -ivano
+PARE: -ii, -isti, -ì, -immo, -iste, -irono
+FUTU: -irò, -irai, -irà, -iremo, -irete, -iranno
+COND: -irei, -iresti, -irebbe, -iremmo, -ireste, -irebbero
+
+venire
+dire
+
+partire
+aprire
+
+capire
+finire
+apparire
+morire
+pulire
+uscire
+fornire
+dormire
+
+=======================================
+
+fare; to do/make; 4.9
+faccio, fai, fa, facciamo, fate, fanno
+
+fornire; to provide; 4.4; isc
+fornisco, fornisci, fornisce, forniamo, fornite, forniscono
+
+parlare; to speak; 4.9; regular
+parlo, parli, parla, parliamo, parlate, parlano
+ho parlato
+parlavo, parlavi, parlava, parlavamo, parlavate, parlavano
+parlai, parlasti, parlò, parlammo, parlaste, parlarono
+parlerò, parlerai, parlerà, parleremo, parlerete, parleranno
+parlerei, parleresti, parlerebbe, parleremmo, parlereste, parlerebbero
+
+leggere; to read; 4.9; regular
+leggo, leggi, legge, leggiamo, leggete, leggono
+ho letto
+leggevo, leggevi, leggeva, leggevamo, leggevate, leggevano
+lessi, leggesti, lesse, leggemo, leggeste, lessero
+leggerò, leggerai, leggerà, leggeremo, leggerete, leggeranno
+leggerei, leggeresti, leggerebbe, leggeremmo, leggereste, leggerebbero
+
+dormire; to sleep; 4.9; regular
+dormo, dormi, dorme, dormiamo, dormite, dormono
+ho dormito
+dormivo, dormivi, dormiva, dormivamo, dormivate, dormivano
+dormii, dormisti, dormì, dormimmo, dormiste, dormirono
+dormirò, dormirai, dormirà, dormiremo, dormirete, dormiranno
+dormirei, dormiresti, dormirebbe, dormiremmo, dormireste, dormirebbero
+
+avere; to have; 5.0
+ho, hai, ha, abbiamo, avete, hanno
+ho avuto
+avevo, avevi, aveva, avevamo, avevate, avevano, 
+ebbi, avesti, ebbe, avemmo, aveste, ebbero 
+avrò, avrai, avrà, avremo, avrete, avranno
+avrei, avresti, avrebbe, avremmo, avreste, avrebbero
+
+essere; to be; 5.0
+sono, sei, è, siamo, siete, sono
+sono stato
+ero, eri, era, eravamo, eravate, erano
+fui, fosti, fu, fummo, foste, furono
+sarò, sarai, sarà, saremo, sarete, saranno
+sarei, saresti, sarebbe, saremmo, sareste, sarebbero
+
+vedere; to see; 4.91
+vedo, vedi, vede, vediamo, vedete, vedono
+ho visto, hai visto, ha visto, abbiamo visto, avete visto, hanno visto
+vedevo, vedevi, vedeva, vedevamo, vedevate, vedevano
+vidi, vedesti, vide, vedemmo, vedeste, videro
+vedrò, vedrai, vedrà, vedremo, vedrete, vedranno
+vedrei, vedresti, vedrebbe, vedremmo, vedreste, vedrebbero
