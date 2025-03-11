@@ -43,6 +43,9 @@ incollare
 notare
 cliccare
 applicare
+entrare
+funzionare
+inviare
 
 == ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
@@ -59,11 +62,12 @@ volere
 dovere
 potere
 
-sapere
+sapere - so, sai, sa, sappiamo, sapete, sanno
 vendere
 prendere
 leggere
 chiudere
+ricevere
 
 rimanere
 nascere
@@ -71,6 +75,7 @@ aggiungere
 rimuovere
 risolvere
 rendere
+corrispondere
 
 
 == IRE =================================
@@ -81,11 +86,12 @@ PARE: -ii, -isti, -ì, -immo, -iste, -irono
 FUTU: -irò, -irai, -irà, -iremo, -irete, -iranno
 COND: -irei, -iresti, -irebbe, -iremmo, -ireste, -irebbero
 
-venire
+venire - vengo, vieni, viene, veniamo, venite, vengono
 dire
 
 partire
 aprire
+restituire - restituisco, restituisci, restituisce, restituiamo, restituite, restituiscono
 
 capire
 finire
