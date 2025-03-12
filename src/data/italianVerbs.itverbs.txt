@@ -21,35 +21,35 @@ andare: vado, vai, va, *, *, vanno, *
 dare: *, dai, dà, *, *, danno, ho dato
 
 parlare: REG
-ascoltare: REG
+))ascoltare: REG // listen
 chiamare: REG
 pensare: REG
 creare: REG
-mostrare: REG
-inviare: REG // send
+)mostrare: REG
+))inviare: REG // send
 guardare: REG // watch: guarda cosa c'è sulla schermata
-incollare: REG // paste
+)incollare: REG // paste
 assicurare: REG // ensure/assure/make-sure
 passare: REG
-girare: REG // turn/spin
-saltare: REG // skip, jump: per ora salteremo questo
-sperare: REG // hope
-impostare: REG // set/set-up: imposto la password del database
+))girare: REG // turn/spin
+))saltare: REG // skip, jump: per ora salteremo questo
+))sperare: REG // hope
+))impostare: REG // set/set-up: imposto la password del database
 ricordare: REG // FF: remember
-apportare: REG // bring: l'aggiornamento apporta miglioramenti significativi
-spostare: REG // move: abbiamo spostato il file di testo
-esportare: REG
+)apportare: REG // bring: l'aggiornamento apporta miglioramenti significativi
+))spostare: REG // move: abbiamo spostato il file di testo
+)esportare: REG
 importare: REG 
-aggiornare: REG // update
+))aggiornare: REG // update
 analizzare: REG
-salvare: REG // save: tu salvi la password nel browser
-tornato: REG // return
+)salvare: REG // save: tu salvi la password nel browser
+))tornato: REG // return
 rappresentare: REG
-ospitare: REG // host
+))ospitare: REG // host
 arrivare: REG
 mangiare: REG
-fermare: REG // stop/halt/end: fermeremo l'esecuzione del progetto
-provare: REG // try 
+)fermare: REG // stop/halt/end: fermeremo l'esecuzione del progetto
+))provare: REG // try 
 continuare: REG
 testare: REG
 interessare: REG // interest: la nuova versione di React interesserà molti sviluppatori
@@ -62,6 +62,7 @@ utilizzare: REG
 notare: REG
 entrare: REG
 funzionare: REG
+incorporare: REG
 --
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
 ))tagliare: *, /i, *, /iamo, *, *, * // cut
