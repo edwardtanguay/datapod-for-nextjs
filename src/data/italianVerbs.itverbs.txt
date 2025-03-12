@@ -58,14 +58,16 @@ spostare: REG (move: abbiamo spostato il file di testo)
 esportare: REG
 importare: REG
 ascoltare: REG
-cambiare: *, cambi, *, *, *, *
+cambiare: *, cambi, *, cambiano, *, *
 aggiornare: REG
 analizzare: REG
 mostrare: REG
 salvare: REG (Tu salvi la password nel browser?)
 tornato: REG
 uguagliare: *, uguagli, *, uguagliamo, *, *
-rappresentare: REG 
+rappresentare: REG
+riavviare: *, *, *, riavviamo, *, * 
+ospitare: REG (to host)
 
 == ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
@@ -75,8 +77,8 @@ PARE: -ei, -esti, -é, -emmo, -este, -erono (etti, -, ette, -, -, ettero)
 FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
-avere
-essere
+avere: ho, hai, ha, abbiamo, *, hanno, *
+essere: sono, sai, è, siamo, seite, sono, stato
 volere: ho visto
 dovere
 potere
@@ -87,25 +89,25 @@ prendere: ho preso
 leggere
 chiudere
 ricevere
-scegliere: scelgo, scegli, *, scegliamo, *, scelgono 
+scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto 
 
 rimanere: -go, *, *, *, *, -gono, ho remasto
-nascere
+nascere: ho nato >>> to be born: lei è nata nel 1995
 aggiungere
 rimuovere
 risolvere
 rendere
 corrispondere
-nascere
 descrivere
-permettere: REG
-ottenere: ottengo, ottieni, ottiene, *, *, ottengono
-accedere: REG >>> access
+permettere: ho permesso
+ottenere: ottengo, ottieni, ottiene, *, *, ottengono (obtain)
+accedere: REG (access)
 contenere: contengo, contieni, contiene, *, *, contengono
 mettere: REG
-ridere: ho riso, EX: ride alle battute
-sorridere: ho sorriso, EX: sorride da un orecchio all'altro
-ritenere: -go, ritieni, ritiene, *, *, -gono
+ridere: ho riso (laugh)
+sorridere: ho sorriso (smile)
+ritenere: -go, ritieni, ritiene, *, *, -gono (believe/consider: riteniamo che questa soluzione sia la più efficiente)
+piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto
 
 
 == IRE =================================
@@ -121,21 +123,22 @@ dire: dico, dici, dice, diciamo, *, dicono
 
 partire: REG
 aprire: REG
-restituire: -isco, -isci, -isce, *, *, -iscono
+dormire: REG
+convertire: REG
+eseguire: REG >>> execute, run: lo script esegue cinque volte al giorno
+consentire: REG >>> allow: questa applicazione consente di gestire i dati in tempo reale
 
 capire: -isco, -isci, -isce, *, *, -iscono
 finire: -isco, -isci, -isce, *, *, -iscono
 definire: -isco, -isci, -isce, *, *, -iscono
-apparire: /io, *, *, *, *, /iono
-morire: /io, *, *, *, *, /iono
 pulire: -isco, -isci, -isce, *, *, -iscono
-uscire: esco, esci, esce, *, *, escono
 fornire: -isco, -isci, -isce, *, *, -iscono
-dormire: REG
 inserire: -isco, -isci, -isce, *, *, -iscono
-eseguire: REG+
-convertire: REG
-consentire: REG >>> allow
+restituire: -isco, -isci, -isce, *, *, -iscono
+---
+apparire: /io, *, *, *, *, /iono
+uscire: esco, esci, esce, *, *, escono
+morire: muoio, muori, muore, *, *, muiono, ho morto
 
 
 =======================================
