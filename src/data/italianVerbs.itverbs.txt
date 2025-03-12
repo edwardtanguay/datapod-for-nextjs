@@ -7,7 +7,7 @@ FUTU: Futuro semplice
 COND: Condizionale presente
 */
 
-== ARE =================================
+=== ARE =================================
 PRES: -o, -i, -a, -iamo, -ate, -ano 
 PAPR: ho/sono -ato
 IMPE: -avo, -avi, -ava, -avamo, -avate, -avano
@@ -82,6 +82,7 @@ essere: sono, sai, è, siamo, seite, sono, è stato // il sistema è stato aggio
 volere: voglio, vuoi, vuole, vogliamo, *, vogliono, *
 dovere: devo, devi, deve, dobbiamo, *, devono, *
 potere: posso, puoi, può, possiamo, *, possono, *
+sapere: so, sai, sa, sappiamo, *, sanno, *
 
 vendere: REG
 accedere: REG // access: l'utente può accedere alla dashboard solo dopo aver effettuato il login
@@ -89,6 +90,8 @@ mettere: REG
 ricevere: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
 
 vedere: *, *, *, *, *, *, ho visto
+scrivere: *, *, *, *, *, *, ho scritto 
+descrivere: *, *, *, *, *, *, ho descritto 
 prendere: *, *, *, *, *, *, ho preso
 leggere: *, *, *, *, *, *, ho letto
 nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
@@ -100,22 +103,15 @@ aggiungere: *, *, *, *, *, *, ho aggiunto
 rimuovere: *, *, *, *, *, *, ho rimosso // remove
 risolvere: *, *, *, *, *, *, ho risolto // solve/resolve
 rendere: *, *, *, *, *, *, ho reso // make/render
+corrispondere: *, *, *, *, *, *, ho corrisposto
 --
 rimanere: -go, *, *, *, *, -gono, ho remasto
---
-sapere: so, sai, sa, sappiamo, *, sanno, *
---
 ritenere: -go, ritieni, ritiene, *, *, -gono // believe/consider: riteniamo che questa soluzione sia la più efficiente
---
 scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto 
 ottenere: ottengo, ottieni, ottiene, *, *, ottengono // obtain
 contenere: contengo, contieni, contiene, *, *, contengono
-piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto
 --
-
-corrispondere
-descrivere
-
+piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto // like: mi piace, mi piacciono, mi è piaciuto molto il nuovo aggiornamento dell'app
 
 === IRE =================================
 PRES: -o, -i, -e, -iamo, -ite, -ono 
