@@ -34,7 +34,7 @@ passare: REG
 girare: REG // turn/spin
 saltare: REG // skip, jump: per ora salteremo questo
 sperare: REG // hope
-impostare: REG // set: imposto la password del database
+impostare: REG // set/set up: imposto la password del database
 ricordare: REG // FF: remember
 apportare: REG // bring: l'aggiornamento apporta miglioramenti significativi
 spostare: REG // move: abbiamo spostato il file di testo
@@ -48,9 +48,11 @@ rappresentare: REG
 ospitare: REG // host
 arrivare: REG
 mangiare: REG
+fermare: REG // stop/halt/end: fermeremo l'esecuzione del progetto
 provare: REG // try 
 continuare: REG
 testare: REG
+interessare: REG // interest: la nuova versione di React interesserà molti sviluppatori
 eliminare: REG
 cancellare: REG
 completare: REG
@@ -62,11 +64,12 @@ entrare: REG
 funzionare: REG
 --
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
-tagliare: *, /i, *, /iamo, *, *, * // cut
+))tagliare: *, /i, *, /iamo, *, *, * // cut
+)archiviare: *, *, *, /iamo, *, *, * // store
 --
-cercare: *, -hi, *, -hiamo, *, *, * // search
+)cercare: *, -hi, *, -hiamo, *, *, * // search
 applicare: *, -hi, *, -hiamo, *, *, * 
-scaricare: *, -hi, *, -hiamo, *, *, * // download
+))scaricare: *, -hi, *, -hiamo, *, *, * // download
 cliccare: *, -hi, *, -hiamo, *, *, * 
 --
 caricare: *, -hi, *, -hiamo, *, *, * // load/upload
@@ -102,6 +105,7 @@ leggere: *, *, *, *, *, *, ho letto
 nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
 permettere: *, *, *, *, *, *, ho permesso
 ridere: *, *, *, *, *, *, ho riso // laugh
+connettere: *, *, *, *, *, *, ho connesso // connect 
 sorridere: *, *, *, *, *, *, ho sorriso // smile
 chiudere: *, *, *, *, *, *, ho chiuso // close
 aggiungere: *, *, *, *, *, *, ho aggiunto 
@@ -136,6 +140,7 @@ dormire: REG
 convertire: REG
 eseguire: REG // execute/run: lo script esegue cinque volte al giorno
 consentire: REG // FF: allow: questa applicazione consente di gestire i dati in tempo reale
+sentire: REG // hear: ho sentito parlare di un nuovo aggiornamento per il framework Vue.js
 
 capire: -isco, -isci, -isce, *, *, -iscono, *
 finire: -isco, -isci, -isce, *, *, -iscono, *
