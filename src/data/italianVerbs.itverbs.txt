@@ -72,11 +72,13 @@ applicare: *, -hi, *, -hiamo, *, *, *
 ))scaricare: *, -hi, *, -hiamo, *, *, * // download
 cliccare: *, -hi, *, -hiamo, *, *, *
 pubblicare: *, -hi, *, -hiamo, *, *, * 
+modificare: *, -hi, *, -hiamo, *, *, * 
 --
-caricare: *, -hi, *, -hiamo, *, *, * // load/upload
+))caricare: *, -hi, *, -hiamo, *, *, * // load/upload
 cambiare: *, cambi, *, cambiano, *, *, *
-uguagliare: *, uguagli, *, uguagliamo, *, *, * // equal
-riavviare: *, *, *, riavviamo, *, *, * // restart/reboot
+))consigliare: *, consigli, *, consigliamo, *, *, * // recommend
+))uguagliare: *, uguagli, *, uguagliamo, *, *, * // equal
+))riavviare: *, *, *, riavviamo, *, *, * // restart/reboot
 
 === ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
