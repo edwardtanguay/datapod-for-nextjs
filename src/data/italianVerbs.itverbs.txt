@@ -95,7 +95,11 @@ nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
 permettere: *, *, *, *, *, *, ho permesso
 ridere: *, *, *, *, *, *, ho riso // laugh
 sorridere: *, *, *, *, *, *, ho sorriso // smile
-chiudere: *, *, *, *, *, *, ho chiuso 
+chiudere: *, *, *, *, *, *, ho chiuso // close
+aggiungere: *, *, *, *, *, *, ho aggiunto 
+rimuovere: *, *, *, *, *, *, ho rimosso // remove
+risolvere: *, *, *, *, *, *, ho risolto // solve/resolve
+rendere: *, *, *, *, *, *, ho reso // make/render
 --
 rimanere: -go, *, *, *, *, -gono, ho remasto
 --
@@ -108,10 +112,7 @@ ottenere: ottengo, ottieni, ottiene, *, *, ottengono // obtain
 contenere: contengo, contieni, contiene, *, *, contengono
 piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto
 --
-aggiungere
-rimuovere
-risolvere
-rendere
+
 corrispondere
 descrivere
 
@@ -124,23 +125,23 @@ PARE: -ii, -isti, -ì, -immo, -iste, -irono
 FUTU: -irò, -irai, -irà, -iremo, -irete, -iranno
 COND: -irei, -iresti, -irebbe, -iremmo, -ireste, -irebbero
 
-venire - vengo, vieni, viene, veniamo, venite, vengono
-dire: dico, dici, dice, diciamo, *, dicono
+dire: dico, dici, dice, diciamo, *, dicono, ho detto
+venire - vengo, vieni, viene, veniamo, *, vengono, *
 
 partire: REG
 aprire: REG
 dormire: REG
 convertire: REG
-eseguire: REG >>> execute, run: lo script esegue cinque volte al giorno
-consentire: REG >>> allow: questa applicazione consente di gestire i dati in tempo reale
+eseguire: REG // execute/run: lo script esegue cinque volte al giorno
+consentire: REG // FF: allow: questa applicazione consente di gestire i dati in tempo reale
 
-capire: -isco, -isci, -isce, *, *, -iscono
-finire: -isco, -isci, -isce, *, *, -iscono
-definire: -isco, -isci, -isce, *, *, -iscono
-pulire: -isco, -isci, -isce, *, *, -iscono
-fornire: -isco, -isci, -isce, *, *, -iscono
-inserire: -isco, -isci, -isce, *, *, -iscono
-restituire: -isco, -isci, -isce, *, *, -iscono
+capire: -isco, -isci, -isce, *, *, -iscono, *
+finire: -isco, -isci, -isce, *, *, -iscono, *
+definire: -isco, -isci, -isce, *, *, -iscono, *
+pulire: -isco, -isci, -isce, *, *, -iscono, *
+fornire: -isco, -isci, -isce, *, *, -iscono, *
+inserire: -isco, -isci, -isce, *, *, -iscono, *
+restituire: -isco, -isci, -isce, *, *, -iscono, *
 ---
 apparire: /io, *, *, *, *, /iono
 uscire: esco, esci, esce, *, *, escono
