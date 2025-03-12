@@ -42,7 +42,7 @@ guardare
 sperare
 iniziare
 utilizzare
-incollare
+incollare: REG
 notare
 cliccare
 applicare: *, -hi, *, -hiamo, *, *
@@ -54,7 +54,7 @@ impostare: REG (Imposto la password del database. I set the database password.)
 ricordare: REG
 caricare: *, -hi, *, -hiamo, *, *
 apportare: REG (apportare delle modifiche, make some changes)
-spostare: REG (abbiamo spostato il file di testo)
+spostare: REG (move: abbiamo spostato il file di testo)
 esportare: REG
 importare: REG
 ascoltare: REG
@@ -62,7 +62,10 @@ cambiare: *, cambi, *, *, *, *
 aggiornare: REG
 analizzare: REG
 mostrare: REG
-salvare: REG
+salvare: REG (Tu salvi la password nel browser?)
+tornato: REG
+uguagliare: *, uguagli, *, uguagliamo, *, *
+rappresentare: REG 
 
 == ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
@@ -74,19 +77,19 @@ COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
 avere
 essere
-volere: ...(visto)
+volere: ho visto
 dovere
 potere
 
 sapere: so, sai, sa, sappiamo, sapete, sanno
 vendere
-prendere
+prendere: ho preso
 leggere
 chiudere
 ricevere
 scegliere: scelgo, scegli, *, scegliamo, *, scelgono 
 
-rimanere
+rimanere: -go, *, *, *, *, -gono, ho remasto
 nascere
 aggiungere
 rimuovere
@@ -97,9 +100,12 @@ nascere
 descrivere
 permettere: REG
 ottenere: ottengo, ottieni, ottiene, *, *, ottengono
-accedere: REG (Accadeva sempre quando aggiornavamo il software. It used to happen every time we updated the software.)
+accedere: REG >>> access
 contenere: contengo, contieni, contiene, *, *, contengono
 mettere: REG
+ridere: ho riso, EX: ride alle battute
+sorridere: ho sorriso, EX: sorride da un orecchio all'altro
+ritenere: -go, ritieni, ritiene, *, *, -gono
 
 
 == IRE =================================
@@ -129,6 +135,7 @@ dormire: REG
 inserire: -isco, -isci, -isce, *, *, -iscono
 eseguire: REG+
 convertire: REG
+consentire: REG >>> allow
 
 
 =======================================
