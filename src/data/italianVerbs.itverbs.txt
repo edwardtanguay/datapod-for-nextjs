@@ -24,12 +24,15 @@ parlare: REG
 ascoltare: REG
 chiamare: REG
 pensare: REG
+creare: REG
 mostrare: REG
 inviare: REG // send
-guardare: REG
+guardare: REG // watch: guarda cosa c'è sulla schermata
 incollare: REG // paste
 assicurare: REG // ensure/assure
 passare: REG
+girare: REG // turn/spin
+saltare: REG // skip, jump: per ora salteremo questo
 sperare: REG // hope
 impostare: REG // set: imposto la password del database
 ricordare: REG // FF: remember
@@ -47,7 +50,6 @@ arrivare: REG
 mangiare: REG
 provare: REG // try 
 continuare: REG
-creare: REG
 testare: REG
 eliminare: REG
 cancellare: REG
@@ -108,11 +110,12 @@ risolvere: *, *, *, *, *, *, ho risolto // solve/resolve
 rendere: *, *, *, *, *, *, ho reso // make/render
 corrispondere: *, *, *, *, *, *, ho corrisposto
 --
-rimanere: -go, *, *, *, *, -gono, ho remasto
-ritenere: -go, ritieni, ritiene, *, *, -gono // believe/consider: riteniamo che questa soluzione sia la più efficiente
-scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto 
-ottenere: ottengo, ottieni, ottiene, *, *, ottengono // obtain
-contenere: contengo, contieni, contiene, *, *, contengono
+)rimanere: -go, *, *, *, *, -gono, ho remasto
+))scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto // choose
+))ritenere: -go, ritieni, ritiene, *, *, -gono, * // believe/consider: riteniamo che questa soluzione sia la più efficiente
+mantenere: -go, mantieni, mantiene, *, *, -gono, * 
+)ottenere: ottengo, ottieni, ottiene, *, *, ottengono, * // obtain
+contenere: contengo, contieni, contiene, *, *, contengono, *
 --
 piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto // like: mi piace, mi piacciono, mi è piaciuto molto il nuovo aggiornamento dell'app
 
