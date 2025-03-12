@@ -29,12 +29,12 @@ mostrare: REG
 inviare: REG // send
 guardare: REG // watch: guarda cosa c'è sulla schermata
 incollare: REG // paste
-assicurare: REG // ensure/assure
+assicurare: REG // ensure/assure/make-sure
 passare: REG
 girare: REG // turn/spin
 saltare: REG // skip, jump: per ora salteremo questo
 sperare: REG // hope
-impostare: REG // set/set up: imposto la password del database
+impostare: REG // set/set-up: imposto la password del database
 ricordare: REG // FF: remember
 apportare: REG // bring: l'aggiornamento apporta miglioramenti significativi
 spostare: REG // move: abbiamo spostato il file di testo
@@ -70,7 +70,8 @@ lasciare: *, /i, *, /iamo, *, *, * // leave/let
 )cercare: *, -hi, *, -hiamo, *, *, * // search
 applicare: *, -hi, *, -hiamo, *, *, * 
 ))scaricare: *, -hi, *, -hiamo, *, *, * // download
-cliccare: *, -hi, *, -hiamo, *, *, * 
+cliccare: *, -hi, *, -hiamo, *, *, *
+pubblicare: *, -hi, *, -hiamo, *, *, * 
 --
 caricare: *, -hi, *, -hiamo, *, *, * // load/upload
 cambiare: *, cambi, *, cambiano, *, *, *
@@ -94,8 +95,8 @@ sapere: so, sai, sa, sappiamo, *, sanno, *
 
 vendere: REG
 accedere: REG // access: l'utente può accedere alla dashboard solo dopo aver effettuato il login
-mettere: REG
-ricevere: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
+)mettere: REG // put/get/place
+)ricevere: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
 
 vedere: *, *, *, *, *, *, ho visto
 scrivere: *, *, *, *, *, *, ho scritto 
@@ -138,17 +139,18 @@ partire: REG
 aprire: REG
 dormire: REG
 convertire: REG
-eseguire: REG // execute/run: lo script esegue cinque volte al giorno
-consentire: REG // FF: allow: questa applicazione consente di gestire i dati in tempo reale
-sentire: REG // hear: ho sentito parlare di un nuovo aggiornamento per il framework Vue.js
+)eseguire: REG // execute/run: lo script esegue cinque volte al giorno
+))consentire: REG // FF: allow: questa applicazione consente di gestire i dati in tempo reale
+))sentire: REG // hear: ho sentito parlare di un nuovo aggiornamento per il framework Vue.js
 
 capire: -isco, -isci, -isce, *, *, -iscono, *
 finire: -isco, -isci, -isce, *, *, -iscono, *
 definire: -isco, -isci, -isce, *, *, -iscono, *
-pulire: -isco, -isci, -isce, *, *, -iscono, *
-fornire: -isco, -isci, -isce, *, *, -iscono, *
+))pulire: -isco, -isci, -isce, *, *, -iscono, * // clean
+))fornire: -isco, -isci, -isce, *, *, -iscono, * // provide supply
 inserire: -isco, -isci, -isce, *, *, -iscono, *
-restituire: -isco, -isci, -isce, *, *, -iscono, *
+))restituire: -isco, -isci, -isce, *, *, -iscono, * // return, give-back
+)sostituire: -isco, -isci, -isce, *, *, -iscono, * // replace/substitute
 ---
 apparire: /io, *, *, *, *, /iono
 uscire: esco, esci, esce, *, *, escono
