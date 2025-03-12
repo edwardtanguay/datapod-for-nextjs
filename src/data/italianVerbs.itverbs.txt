@@ -69,7 +69,7 @@ rappresentare: REG
 riavviare: *, *, *, riavviamo, *, * 
 ospitare: REG (to host)
 
-== ERE =================================
+=== ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
 PAPR: ho/sono -uto
 IMPE: -evo, -evi, -eva, -evamo, -evate, -evano
@@ -78,11 +78,12 @@ FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
 avere: ho, hai, ha, abbiamo, *, hanno, *
-essere: sono, sai, è, siamo, seite, sono, stato
-volere: ho visto
-dovere
-potere
+essere: sono, sai, è, siamo, seite, sono, è stato >>> il sistema è stato aggiornato ieri
+volere: voglio, vuoi, vuole, vogliamo, *, vogliono, *
+dovere: devo, devi, deve, dobbiamo, *, devono
+potere: posso, puoi, può, possiamo, *, possono, *
 
+vedere: ho visto
 sapere: so, sai, sa, sappiamo, sapete, sanno
 vendere
 prendere: ho preso
@@ -110,7 +111,7 @@ ritenere: -go, ritieni, ritiene, *, *, -gono (believe/consider: riteniamo che qu
 piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto
 
 
-== IRE =================================
+=== IRE =================================
 PRES: -o, -i, -e, -iamo, -ite, -ono 
 PAPR: ho/sono -ito
 IMPE: -ivo, -ivi, -iva, -ivamo, -ivate, -ivano
