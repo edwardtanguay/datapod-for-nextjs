@@ -1,6 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
 import { writeFileSync } from "fs";
 import { join } from "path";
+import { connectToDb } from "../db";
+
+export async function GET() {
+	const { db } = await connectToDb();
+	const messages = await db.collection("messages").find({}).toArray();
+	return new Response(JSON.stringify(messages), {
+		status: 200,
+		headers: {
+			"Content-Type": "application/json",
+		},
+	});
+}
 
 export async function POST(request: NextRequest) {
 	try {
