@@ -98,22 +98,23 @@ accedere: REG // access: l'utente può accedere alla dashboard solo dopo aver ef
 )mettere: REG // put/get/place
 )ricevere: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
 
-vedere: *, *, *, *, *, *, ho visto
+))vedere: *, *, *, *, *, *, ho visto
 scrivere: *, *, *, *, *, *, ho scritto 
 descrivere: *, *, *, *, *, *, ho descritto 
 prendere: *, *, *, *, *, *, ho preso
-leggere: *, *, *, *, *, *, ho letto
-nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
+)leggere: *, *, *, *, *, *, ho letto
+))nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
 permettere: *, *, *, *, *, *, ho permesso
-ridere: *, *, *, *, *, *, ho riso // laugh
+))ridere: *, *, *, *, *, *, ho riso // laugh
 connettere: *, *, *, *, *, *, ho connesso // connect 
-sorridere: *, *, *, *, *, *, ho sorriso // smile
-chiudere: *, *, *, *, *, *, ho chiuso // close
-aggiungere: *, *, *, *, *, *, ho aggiunto 
-rimuovere: *, *, *, *, *, *, ho rimosso // remove
+))sorridere: *, *, *, *, *, *, ho sorriso // smile
+))chiudere: *, *, *, *, *, *, ho chiuso // close
+))aggiungere: *, *, *, *, *, *, ho aggiunto 
+)rimuovere: *, *, *, *, *, *, ho rimosso // remove
 risolvere: *, *, *, *, *, *, ho risolto // solve/resolve
 rendere: *, *, *, *, *, *, ho reso // make/render
 corrispondere: *, *, *, *, *, *, ho corrisposto
+))succedere: *, *, *, *, *, *, ho successo // happen: quello che sta succedendo è che
 --
 )rimanere: -go, *, *, *, *, -gono, ho remasto
 ))scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto // choose
