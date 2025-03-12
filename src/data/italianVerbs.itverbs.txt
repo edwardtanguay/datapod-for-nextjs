@@ -78,37 +78,42 @@ FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
 avere: ho, hai, ha, abbiamo, *, hanno, *
-essere: sono, sai, è, siamo, seite, sono, è stato >>> il sistema è stato aggiornato ieri
+essere: sono, sai, è, siamo, seite, sono, è stato // il sistema è stato aggiornato ieri
 volere: voglio, vuoi, vuole, vogliamo, *, vogliono, *
-dovere: devo, devi, deve, dobbiamo, *, devono
+dovere: devo, devi, deve, dobbiamo, *, devono, *
 potere: posso, puoi, può, possiamo, *, possono, *
 
-vedere: ho visto
-sapere: so, sai, sa, sappiamo, sapete, sanno
-vendere
-prendere: ho preso
-leggere
-chiudere
-ricevere
-scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto 
+vendere: REG
+accedere: REG // access: l'utente può accedere alla dashboard solo dopo aver effettuato il login
+mettere: REG
+ricevere: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
 
+vedere: *, *, *, *, *, *, ho visto
+prendere: *, *, *, *, *, *, ho preso
+leggere: *, *, *, *, *, *, ho letto
+nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
+permettere: *, *, *, *, *, *, ho permesso
+ridere: *, *, *, *, *, *, ho riso // laugh
+sorridere: *, *, *, *, *, *, ho sorriso // smile
+chiudere: *, *, *, *, *, *, ho chiuso 
+--
 rimanere: -go, *, *, *, *, -gono, ho remasto
-nascere: ho nato >>> to be born: lei è nata nel 1995
+--
+sapere: so, sai, sa, sappiamo, *, sanno, *
+--
+ritenere: -go, ritieni, ritiene, *, *, -gono // believe/consider: riteniamo che questa soluzione sia la più efficiente
+--
+scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto 
+ottenere: ottengo, ottieni, ottiene, *, *, ottengono // obtain
+contenere: contengo, contieni, contiene, *, *, contengono
+piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto
+--
 aggiungere
 rimuovere
 risolvere
 rendere
 corrispondere
 descrivere
-permettere: ho permesso
-ottenere: ottengo, ottieni, ottiene, *, *, ottengono (obtain)
-accedere: REG (access)
-contenere: contengo, contieni, contiene, *, *, contengono
-mettere: REG
-ridere: ho riso (laugh)
-sorridere: ho sorriso (smile)
-ritenere: -go, ritieni, ritiene, *, *, -gono (believe/consider: riteniamo che questa soluzione sia la più efficiente)
-piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto
 
 
 === IRE =================================
