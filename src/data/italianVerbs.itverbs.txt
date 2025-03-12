@@ -15,10 +15,10 @@ PARE: -ai, -asti, -ò, -ammo, -aste, -arono
 FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
-stare
-fare
-andare: vado, vai, va, *, *, vanno
-dare
+stare: *, stai, *, *, *, stanno, *
+fare: faccio, fai, *, facciamo, *, fanno, ho fatto
+andare: vado, vai, va, *, *, vanno, *
+dare: *, dai, dà, *, *, danno, ho dato
 
 parlare
 pensare
