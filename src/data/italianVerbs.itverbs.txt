@@ -25,8 +25,12 @@ ascoltare: REG
 chiamare: REG
 pensare: REG
 mostrare: REG
+inviare: REG // send
+guardare: REG
 incollare: REG // paste
 assicurare: REG // ensure/assure
+passare: REG
+sperare: REG // hope
 impostare: REG // set: imposto la password del database
 ricordare: REG // FF: remember
 apportare: REG // bring: l'aggiornamento apporta miglioramenti significativi
@@ -39,27 +43,21 @@ salvare: REG // save: tu salvi la password nel browser
 tornato: REG // return
 rappresentare: REG
 ospitare: REG // host
---
-arrivare
-mangiare
-provare
-continuare
-creare
-testare
-eliminare
-cancellare
-completare
-passare
-guidare
-guardare
-sperare
-iniziare
-utilizzare
-notare
-cliccare
-entrare
-funzionare
-inviare
+arrivare: REG
+mangiare: REG
+provare: REG // try 
+continuare: REG
+creare: REG
+testare: REG
+eliminare: REG
+cancellare: REG
+completare: REG
+guidare: REG // drive/guide/lead
+iniziare: REG
+utilizzare: REG
+notare: REG
+entrare: REG
+funzionare: REG
 --
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
 tagliare: *, /i, *, /iamo, *, *, * // cut
@@ -67,6 +65,7 @@ tagliare: *, /i, *, /iamo, *, *, * // cut
 cercare: *, -hi, *, -hiamo, *, *, * // search
 applicare: *, -hi, *, -hiamo, *, *, * 
 scaricare: *, -hi, *, -hiamo, *, *, * // download
+cliccare: *, -hi, *, -hiamo, *, *, * 
 --
 caricare: *, -hi, *, -hiamo, *, *, * // load/upload
 cambiare: *, cambi, *, cambiano, *, *, *
