@@ -20,21 +20,34 @@ fare: faccio, fai, *, facciamo, *, fanno, ho fatto
 andare: vado, vai, va, *, *, vanno, *
 dare: *, dai, dà, *, *, danno, ho dato
 
-parlare
-pensare
-chiamare
-lasciare
+parlare: REG
+ascoltare: REG
+chiamare: REG
+pensare: REG
+mostrare: REG
+incollare: REG // paste
+assicurare: REG // ensure/assure
+impostare: REG // set: imposto la password del database
+ricordare: REG // FF: remember
+apportare: REG // bring: l'aggiornamento apporta miglioramenti significativi
+spostare: REG // move: abbiamo spostato il file di testo
+esportare: REG
+importare: REG 
+aggiornare: REG // update
+analizzare: REG
+salvare: REG // save: tu salvi la password nel browser
+tornato: REG // return
+rappresentare: REG
+ospitare: REG // host
+--
 arrivare
 mangiare
 provare
 continuare
 creare
 testare
-cercare: *, -hi, *, -hiamo, *, *
-
 eliminare
 cancellare
-assicurare: REG
 completare
 passare
 guidare
@@ -42,32 +55,23 @@ guardare
 sperare
 iniziare
 utilizzare
-incollare: REG
 notare
 cliccare
-applicare: *, -hi, *, -hiamo, *, *
 entrare
 funzionare
 inviare
-scaricare: *, -hi, *, -hiamo, *, *
-impostare: REG (Imposto la password del database. I set the database password.)
-ricordare: REG
-caricare: *, -hi, *, -hiamo, *, *
-apportare: REG (apportare delle modifiche, make some changes)
-spostare: REG (move: abbiamo spostato il file di testo)
-esportare: REG
-importare: REG
-ascoltare: REG
-cambiare: *, cambi, *, cambiano, *, *
-aggiornare: REG
-analizzare: REG
-mostrare: REG
-salvare: REG (Tu salvi la password nel browser?)
-tornato: REG
-uguagliare: *, uguagli, *, uguagliamo, *, *
-rappresentare: REG
-riavviare: *, *, *, riavviamo, *, * 
-ospitare: REG (to host)
+--
+lasciare: *, /i, *, /iamo, *, *, * // leave/let
+tagliare: *, /i, *, /iamo, *, *, * // cut
+--
+cercare: *, -hi, *, -hiamo, *, *, * // search
+applicare: *, -hi, *, -hiamo, *, *, * 
+scaricare: *, -hi, *, -hiamo, *, *, * // download
+--
+caricare: *, -hi, *, -hiamo, *, *, * // load/upload
+cambiare: *, cambi, *, cambiano, *, *, *
+uguagliare: *, uguagli, *, uguagliamo, *, *, * // equal
+riavviare: *, *, *, riavviamo, *, *, * // restart/reboot
 
 === ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
