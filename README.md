@@ -16,4 +16,10 @@ https://github.com/edwardtanguay/datapod-for-nextjs
 
 ## API
 
--   `- POST `api/notes`
+- install [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+- see file: test.rest
+- click on "Send Request" for each request you want to test
+
+## TODO
+
+- some routes are note protected online, authentication is needed

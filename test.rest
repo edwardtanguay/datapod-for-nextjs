@@ -1,0 +1,12 @@
+@url = http://localhost:3670
+
+### ADD SINGLE BOOK
+POST {{url}}/api/notes
+content-type: application/json
+	
+{
+	"note": "this is a test note, that gets written to a file: 123"
+}
+
+### GET ALL MESSAGES
+GET {{url}}/api/messages
