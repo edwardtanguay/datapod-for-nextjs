@@ -35,6 +35,16 @@ export const Header = () => {
 					</li>
 					<li>
 						<Link
+							href="/messages"
+							className={`border-0 ${
+								activeSegment === "messages" ? "menuHighlight" : ""
+							}`}
+						>
+							Messages
+						</Link>
+					</li>
+					<li>
+						<Link
 							href="/showcases"
 							className={`border-0 ${
 								activeSegment === "showcases" ? "menuHighlight" : ""

@@ -3,4 +3,8 @@ export type Info = {
     content: string;
 }
 
+export type Message = {
+    text: string;
+}
+
 export type SiteLocation = "local" | "online" | "error";
