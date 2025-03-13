@@ -63,20 +63,23 @@ notare: REG
 entrare: REG
 funzionare: REG
 incorporare: REG
-)evitare: REG // avoid
+)envitare: REG // avoid
+apprezzare: REG // appreciate
 --
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
 ))tagliare: *, /i, *, /iamo, *, *, * // cut
 )archiviare: *, *, *, /iamo, *, *, * // store
+pronunciare: *, *, *, /iamo, *, *, *
 --
 )cercare: *, -hi, *, -hiamo, *, *, * // search
 applicare: *, -hi, *, -hiamo, *, *, * 
+))caricare: *, -hi, *, -hiamo, *, *, * // load/upload
 ))scaricare: *, -hi, *, -hiamo, *, *, * // download
+))sovraccaricare: *, -hi, *, -hiamo, *, *, * // overload
 cliccare: *, -hi, *, -hiamo, *, *, *
 pubblicare: *, -hi, *, -hiamo, *, *, * 
 modificare: *, -hi, *, -hiamo, *, *, * 
 --
-))caricare: *, -hi, *, -hiamo, *, *, * // load/upload
 cambiare: *, cambi, *, cambiano, *, *, *
 ))consigliare: *, consigli, *, consigliamo, *, *, * // recommend
 ))uguagliare: *, uguagli, *, uguagliamo, *, *, * // equal
@@ -99,15 +102,16 @@ sapere: so, sai, sa, sappiamo, *, sanno, *
 
 vendere: REG
 accedere: REG // access: l'utente può accedere alla dashboard solo dopo aver effettuato il login
-)mettere: REG // put/get/place
 )ricevere: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
 
 ))vedere: *, *, *, *, *, *, ho visto
 scrivere: *, *, *, *, *, *, ho scritto 
+rescrivere: *, *, *, *, *, *, ho rescritto 
 descrivere: *, *, *, *, *, *, ho descritto 
 prendere: *, *, *, *, *, *, ho preso
 )leggere: *, *, *, *, *, *, ho letto
 ))nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
+)mettere: *, *, *, *, *, *, ho rmesso // put/get/place
 permettere: *, *, *, *, *, *, ho permesso
 ))ridere: *, *, *, *, *, *, ho riso // laugh
 connettere: *, *, *, *, *, *, ho connesso // connect 
@@ -121,11 +125,11 @@ corrispondere: *, *, *, *, *, *, ho corrisposto
 ))succedere: *, *, *, *, *, *, ho successo // happen: quello che sta succedendo è che
 --
 )rimanere: -go, *, *, *, *, -gono, ho remasto
-))scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto // choose
 ))ritenere: -go, ritieni, ritiene, *, *, -gono, * // believe/consider: riteniamo che questa soluzione sia la più efficiente
 mantenere: -go, mantieni, mantiene, *, *, -gono, * 
-)ottenere: ottengo, ottieni, ottiene, *, *, ottengono, * // obtain
-contenere: contengo, contieni, contiene, *, *, contengono, *
+)ottenere: -go, ottieni, ottiene, *, *, -gono, * // obtain
+contenere: -go, contieni, contiene, *, *, -gono, *
+))scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto // choose
 --
 piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto // like: mi piace, mi piacciono, mi è piaciuto molto il nuovo aggiornamento dell'app
 
