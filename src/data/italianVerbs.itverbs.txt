@@ -100,6 +100,7 @@ dovere: devo, devi, deve, dobbiamo, *, devono, *
 potere: posso, puoi, può, possiamo, *, possono, *
 sapere: so, sai, sa, sappiamo, *, sanno, *
 
+credere: REG
 vendere: REG
 accedere: REG // access: l'utente può accedere alla dashboard solo dopo aver effettuato il login
 )ricevere: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
