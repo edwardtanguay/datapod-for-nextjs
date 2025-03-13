@@ -13,5 +13,7 @@ https://github.com/edwardtanguay/datapod-for-nextjs
 
 -   **404 Page**
     -   for any route and even if you give an id that does not exist in e.g. http://localhost:3670/info/222222
--   **POST**
-    -   posts a message
+
+## API
+
+-   `- POST `api/notes`
