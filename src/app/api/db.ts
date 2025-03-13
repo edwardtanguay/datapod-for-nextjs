@@ -7,7 +7,7 @@ export const connectToDb = async () => {
 	if (cachedClient && cachedDb) {
 		return { client: cachedClient, db: cachedDb };
 	}
-	const uri = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@cluster0.xidme.mongodb.net/datapod-test-data?retryWrites=true&w=majority&appName=Cluster0`;
+	const uri = `mongodb+srv://${process.env.MONGODB_USER}:${process.env.MONGODB_PASSWORD}@cluster0.xidme.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 
 	const client = new MongoClient(uri, {
 		serverApi: {
@@ -20,7 +20,7 @@ export const connectToDb = async () => {
 	await client.connect();
 
 	cachedClient = client;
-	cachedDb = client.db();
+	cachedDb = client.db('datapod-test-data');
 
-	return { client, db: client.db() };
+	return { client, db: client.db('datapod-test-data') };
 };

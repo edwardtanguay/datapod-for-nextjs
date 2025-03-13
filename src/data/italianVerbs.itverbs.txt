@@ -152,10 +152,10 @@ capire: -isco, -isci, -isce, *, *, -iscono, *
 finire: -isco, -isci, -isce, *, *, -iscono, *
 definire: -isco, -isci, -isce, *, *, -iscono, *
 ))pulire: -isco, -isci, -isce, *, *, -iscono, * // clean
-))fornire: -isco, -isci, -isce, *, *, -iscono, * // provide supply
-inserire: -isco, -isci, -isce, *, *, -iscono, *
+))fornire: -isco, -isci, -isce, *, *, -iscono, * // provide, supply
+inserire: -isco, -isci, -isce, *, *, -iscono, * // insert
 ))restituire: -isco, -isci, -isce, *, *, -iscono, * // return, give-back
-)sostituire: -isco, -isci, -isce, *, *, -iscono, * // replace/substitute
+)sostituire: -isco, -isci, -isce, *, *, -iscono, * // replace, substitute
 ridistribuire: -isco, -isci, -isce, *, *, -iscono, * // redeploy 
 ---
 apparire: /io, *, *, *, *, /iono
