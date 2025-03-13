@@ -53,6 +53,16 @@ export const Header = () => {
 							Showcases
 						</Link>
 					</li>
+					<li>
+						<Link
+							href="/about"
+							className={`border-0 ${
+								activeSegment === "about" ? "menuHighlight" : ""
+							}`}
+						>
+							About
+						</Link>
+					</li>
 				</ul>
 			</nav>
 		</div>
