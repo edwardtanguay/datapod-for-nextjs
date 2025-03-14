@@ -8,7 +8,7 @@ COND: Condizionale presente
 */
 
 === ARE =================================
-PRES: -o, -i, -a, -iamo, -ate, -ano 
+iRES: -o, -i, -a, -iamo, -ate, -ano 
 PAPR: ho/sono -ato
 IMPE: -avo, -avi, -ava, -avamo, -avate, -avano
 PARE: -ai, -asti, -ò, -ammo, -aste, -arono
@@ -21,22 +21,25 @@ andare: vado, vai, va, *, *, vanno, *
 dare: *, dai, dà, *, *, danno, ho dato
 
 parlare: REG
-))ascoltare: REG // listen
+ascoltare!: REG // listen
 chiamare: REG
 pensare: REG
 creare: REG
-)mostrare: REG
-))inviare: REG // send
-guardare: REG // watch: guarda cosa c'è sulla schermata
-)incollare: REG // paste
+mostrare!: REG
+aspettare: REG // wait, expect
+inviare!: REG // send
+guardare!: REG // watch: guarda cosa c'è sulla schermata
+incollare!: REG // paste
+tirare!: REG // to push
+controllare!!: REG // to check, inspect
 assicurare: REG // ensure/assure/make-sure
 passare: REG
 ))girare: REG // turn/spin
 ))saltare: REG // skip, jump: per ora salteremo questo
-))sperare: REG // hope
+sperare!!: REG // hope
 ))impostare: REG // set/set-up: imposto la password del database
 ricordare: REG // FF: remember
-)apportare: REG // bring: l'aggiornamento apporta miglioramenti significativi
+apportare!: REG // bring: l'aggiornamento apporta miglioramenti significativi
 ))spostare: REG // move: abbiamo spostato il file di testo
 )esportare: REG
 importare: REG 
@@ -65,20 +68,24 @@ funzionare: REG
 incorporare: REG
 )envitare: REG // avoid
 apprezzare: REG // appreciate
+trattare!: REG // treat, handle
+regolare!: REG // adjust
 --
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
 ))tagliare: *, /i, *, /iamo, *, *, * // cut
+copiare: *, /i, *, /iamo, *, *, * 
 )archiviare: *, *, *, /iamo, *, *, * // store
 pronunciare: *, *, *, /iamo, *, *, *
 --
-)cercare: *, -hi, *, -hiamo, *, *, * // search
+cercare!: *, -hi, *, -hiamo, *, *, * // search
 applicare: *, -hi, *, -hiamo, *, *, * 
-))caricare: *, -hi, *, -hiamo, *, *, * // load/upload
-))scaricare: *, -hi, *, -hiamo, *, *, * // download
-))sovraccaricare: *, -hi, *, -hiamo, *, *, * // overload
+caricare!!: *, -hi, *, -hiamo, *, *, * // load/upload
+scaricare!!: *, -hi, *, -hiamo, *, *, * // download
+sovraccaricare!!: *, -hi, *, -hiamo, *, *, * // overload
 cliccare: *, -hi, *, -hiamo, *, *, *
 pubblicare: *, -hi, *, -hiamo, *, *, * 
 modificare: *, -hi, *, -hiamo, *, *, * 
+specificare: *, -hi, *, -hiamo, *, *, *  
 --
 cambiare: *, cambi, *, cambiano, *, *, *
 ))consigliare: *, consigli, *, consigliamo, *, *, * // recommend
@@ -109,6 +116,8 @@ accedere: REG // access: l'utente può accedere alla dashboard solo dopo aver ef
 scrivere: *, *, *, *, *, *, ho scritto 
 rescrivere: *, *, *, *, *, *, ho rescritto 
 descrivere: *, *, *, *, *, *, ho descritto 
+discutere: *, *, *, *, *, *, ho discusso
+spingere: *, *, *, *, *, *, ho spinto
 prendere: *, *, *, *, *, *, ho preso
 )leggere: *, *, *, *, *, *, ho letto
 ))nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
@@ -147,11 +156,12 @@ venire - vengo, vieni, viene, veniamo, *, vengono, *
 
 partire: REG
 aprire: REG
+riuscire!: REG // be able to, succeed
 dormire: REG
 convertire: REG
-)eseguire: REG // execute/run: lo script esegue cinque volte al giorno
-))consentire: REG // FF: allow: questa applicazione consente di gestire i dati in tempo reale
-))sentire: REG // hear: ho sentito parlare di un nuovo aggiornamento per il framework Vue.js
+eseguire!: REG // execute/run: lo script esegue cinque volte al giorno
+consentire!!: REG // FF: allow: questa applicazione consente di gestire i dati in tempo reale
+sentire!!: REG // hear: ho sentito parlare di un nuovo aggiornamento per il framework Vue.js
 
 capire: -isco, -isci, -isce, *, *, -iscono, *
 finire: -isco, -isci, -isce, *, *, -iscono, *

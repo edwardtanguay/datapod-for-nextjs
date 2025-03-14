@@ -1,6 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { writeFileSync } from "fs";
-import { join } from "path";
 import { connectToDb } from "../db";
 
 export async function GET() {
@@ -25,11 +23,14 @@ export async function POST(request: NextRequest) {
 			);
 		}
 
-		const dataPath = join(process.cwd(), "src", "data", "message.txt");
-		writeFileSync(dataPath, message, "utf-8");
+		const { db } = await connectToDb();
+		await db.collection("messages").insertOne({ message });
 
 		return NextResponse.json(
-			{ success: true, message: "Message saved successfully" },
+			{
+				success: true,
+				message: "Message saved successfully to database",
+			},
 			{ status: 200 }
 		);
 	} catch (err: unknown) {
