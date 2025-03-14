@@ -1,6 +1,5 @@
+import SingleFrontendMessage from "@/components/SingleFrontendMessage";
 import { FrontendMessage, Message } from "@/types";
-import { RxEnvelopeClosed } from "react-icons/rx";
-import { RxEnvelopeOpen } from "react-icons/rx";
 
 export default async function Page() {
 	let messages: Message[] = [];
@@ -36,15 +35,10 @@ export default async function Page() {
 			</p>
 			<div className="mt-6 space-y-4">
 				{frontendMessages.map((frontendMessage, index) => (
-					<div
+					<SingleFrontendMessage
+						frontendMessage={frontendMessage}
 						key={index}
-						className="p-4 bg-white rounded-lg shadow-sm border border-gray-200 flex gap-2 items-center"
-					>
-						<p>{frontendMessage.isOpen ? <RxEnvelopeOpen className="text-green-700" /> : <RxEnvelopeClosed className="text-red-400" />}</p>
-						<p className="text-gray-800">
-							{frontendMessage.text} ({frontendMessage._id})
-						</p>
-					</div>
+					/>
 				))}
 			</div>
 		</div>
