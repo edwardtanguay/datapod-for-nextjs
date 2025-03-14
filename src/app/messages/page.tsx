@@ -1,23 +1,14 @@
-import SingleFrontendMessage from "@/components/SingleFrontendMessage";
-import { FrontendMessage, Message } from "@/types";
+import SingleFrontendMessage from "@/components/SingleMessage";
+import { Message } from "@/types";
 
 export default async function Page() {
 	let messages: Message[] = [];
-	const frontendMessages: FrontendMessage[] = [];
 
 	try {
 		const res = await fetch(`${process.env.SITE_URL}/api/messages`);
 		if (!res.ok) throw new Error("Failed to fetch messages");
 		messages = await res.json();
 
-		for (const message of messages) {
-			const frontendMessage: FrontendMessage = {
-				_id: message._id,
-				text: message.text,
-				isOpen: true,
-			};
-			frontendMessages.push(frontendMessage);
-		}
 	} catch (err) {
 		console.error("Message fetch error:", err);
 		return (
@@ -34,9 +25,9 @@ export default async function Page() {
 				which fetches data from a MongoDB Atlas database.
 			</p>
 			<div className="mt-6 space-y-4">
-				{frontendMessages.map((frontendMessage, index) => (
+				{messages.map((message, index) => (
 					<SingleFrontendMessage
-						frontendMessage={frontendMessage}
+						message={message}
 						key={index}
 					/>
 				))}

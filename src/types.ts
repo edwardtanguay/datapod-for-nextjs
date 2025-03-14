@@ -8,10 +8,5 @@ export type Message = {
     text: string;
 }
 
-export type FrontendMessage = {
-    _id: string;
-    text: string;
-    isOpen: boolean;
-}
 
 export type SiteLocation = "local" | "online" | "error";
