@@ -143,7 +143,9 @@ corrispondere: *, *, *, *, *, *, ho corrisposto
 mantenere: -go, mantieni, mantiene, *, *, -gono, * 
 )ottenere: -go, ottieni, ottiene, *, *, -gono, * // obtain
 contenere: -go, contieni, contiene, *, *, -gono, *
+--
 ))scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto // choose
+togliere: tolgo, togli, *, togliamo, *, tolgono, ho tolto // remove
 --
 piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto // like: mi piace, mi piacciono, mi è piaciuto molto il nuovo aggiornamento dell'app
 
