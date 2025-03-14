@@ -34,10 +34,10 @@ tirare!: REG // to push
 controllare!!: REG // to check, inspect
 assicurare: REG // ensure/assure/make-sure
 passare: REG
-))girare: REG // turn/spin
-))saltare: REG // skip, jump: per ora salteremo questo
+girare!!: REG // turn/spin
+saltare!!: REG // skip, jump: per ora salteremo questo
 sperare!!: REG // hope
-))impostare: REG // set/set-up: imposto la password del database
+impostare!!: REG // set/set-up: imposto la password del database
 ricordare: REG // FF: remember
 apportare!: REG // bring: l'aggiornamento apporta miglioramenti significativi
 ))spostare: REG // move: abbiamo spostato il file di testo
@@ -45,11 +45,12 @@ apportare!: REG // bring: l'aggiornamento apporta miglioramenti significativi
 importare: REG 
 ))aggiornare: REG // update
 analizzare: REG
-)salvare: REG // save: tu salvi la password nel browser
-))tornato: REG // return
+salvare!: REG // save: tu salvi la password nel browser
+tornato!!: REG // return
 rappresentare: REG
-))ospitare: REG // host
+ospitare!!: REG // host
 arrivare: REG
+evitare!!: REG // prevent
 mangiare: REG
 )fermare: REG // stop/halt/end: fermeremo l'esecuzione del progetto
 ))provare: REG // try 
@@ -82,6 +83,7 @@ applicare: *, -hi, *, -hiamo, *, *, *
 caricare!!: *, -hi, *, -hiamo, *, *, * // load/upload
 scaricare!!: *, -hi, *, -hiamo, *, *, * // download
 sovraccaricare!!: *, -hi, *, -hiamo, *, *, * // overload
+dimenticare: *, -hi, *, -hiamo, *, *, * // forget
 cliccare: *, -hi, *, -hiamo, *, *, *
 pubblicare: *, -hi, *, -hiamo, *, *, * 
 modificare: *, -hi, *, -hiamo, *, *, * 
@@ -119,6 +121,8 @@ descrivere: *, *, *, *, *, *, ho descritto
 discutere: *, *, *, *, *, *, ho discusso
 spingere: *, *, *, *, *, *, ho spinto
 prendere: *, *, *, *, *, *, ho preso
+scendere: *, *, *, *, *, *, ho sceso // move down
+ascendere: *, *, *, *, *, *, ho asceso // move up
 )leggere: *, *, *, *, *, *, ho letto
 ))nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
 )mettere: *, *, *, *, *, *, ho rmesso // put/get/place
@@ -167,11 +171,12 @@ capire: -isco, -isci, -isce, *, *, -iscono, *
 finire: -isco, -isci, -isce, *, *, -iscono, *
 definire: -isco, -isci, -isce, *, *, -iscono, *
 ))pulire: -isco, -isci, -isce, *, *, -iscono, * // clean
-))fornire: -isco, -isci, -isce, *, *, -iscono, * // provide, supply
+))fornire: -isco, -isci, -isce, *, *, -iscono, * // provide
 inserire: -isco, -isci, -isce, *, *, -iscono, * // insert
-))restituire: -isco, -isci, -isce, *, *, -iscono, * // return, give-back
-)sostituire: -isco, -isci, -isce, *, *, -iscono, * // replace, substitute
+))restituire: -isco, -isci, -isce, *, *, -iscono, * // return (a value)
+sostituire!!: -isco, -isci, -isce, *, *, -iscono, * // replace
 ridistribuire: -isco, -isci, -isce, *, *, -iscono, * // redeploy 
+impedire!: -isco, -isci, -isce, *, *, -iscono, * // prevent
 ---
 apparire: /io, *, *, *, *, /iono
 uscire: esco, esci, esce, *, *, escono
