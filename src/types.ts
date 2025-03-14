@@ -11,7 +11,7 @@ export type Message = {
 export type FrontendMessage = {
     _id: string;
     text: string;
-    highlighted: boolean;
+    isOpen: boolean;
 }
 
 export type SiteLocation = "local" | "online" | "error";

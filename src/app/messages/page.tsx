@@ -1,5 +1,6 @@
 import { FrontendMessage, Message } from "@/types";
-import { FaStar } from "react-icons/fa6";
+import { RxEnvelopeClosed } from "react-icons/rx";
+import { RxEnvelopeOpen } from "react-icons/rx";
 
 export default async function Page() {
 	let messages: Message[] = [];
@@ -14,7 +15,7 @@ export default async function Page() {
 			const frontendMessage: FrontendMessage = {
 				_id: message._id,
 				text: message.text,
-				highlighted: false,
+				isOpen: true,
 			};
 			frontendMessages.push(frontendMessage);
 		}
@@ -39,7 +40,7 @@ export default async function Page() {
 						key={index}
 						className="p-4 bg-white rounded-lg shadow-sm border border-gray-200 flex gap-2 items-center"
 					>
-						<p>{frontendMessage.highlighted ? <FaStar className="text-yellow-500" /> : <FaStar className="text-gray-400" />}</p>
+						<p>{frontendMessage.isOpen ? <RxEnvelopeOpen className="text-green-700" /> : <RxEnvelopeClosed className="text-red-400" />}</p>
 						<p className="text-gray-800">
 							{frontendMessage.text} ({frontendMessage._id})
 						</p>
