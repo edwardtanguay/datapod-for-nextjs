@@ -7,6 +7,10 @@ FUTU: Futuro semplice
 COND: Condizionale presente
 */
 
+=== REFLEXIVE =============================
+ARE: assicurarsi: make sure: il team DevOps deve assicurarsi che
+IRE: unirsi, to join: molti sviluppatori hanno deciso di unirsi alla community open source
+
 === ARE =================================
 iRES: -o, -i, -a, -iamo, -ate, -ano 
 PAPR: ho/sono -ato
@@ -38,6 +42,7 @@ girare!!: REG // turn/spin
 saltare!!: REG // skip, jump: per ora salteremo questo
 sperare!!: REG // hope
 impostare!!: REG // set/set-up: imposto la password del database
+reimpostare!!: REG // reset: 
 ricordare: REG // FF: remember
 apportare!: REG // bring: l'aggiornamento apporta miglioramenti significativi
 ))spostare: REG // move: abbiamo spostato il file di testo
@@ -46,7 +51,7 @@ importare: REG
 ))aggiornare: REG // update
 analizzare: REG
 salvare!: REG // save: tu salvi la password nel browser
-tornato!!: REG // return
+tornare!!: REG // return
 rappresentare: REG
 ospitare!!: REG // host
 arrivare: REG
@@ -69,7 +74,7 @@ funzionare: REG
 incorporare: REG
 )envitare: REG // avoid
 apprezzare: REG // appreciate
-trattare!: REG // treat, handle
+trattare!: REG // treat, handle: gli argomenti che tratteremo
 regolare!: REG // adjust
 --
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
@@ -111,10 +116,10 @@ sapere: so, sai, sa, sappiamo, *, sanno, *
 
 credere: REG
 vendere: REG
-accedere: REG // access: l'utente può accedere alla dashboard solo dopo aver effettuato il login
-)ricevere: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
+accedere: REG // access, log in: l'utente può accedere alla dashboard solo dopo aver effettuato il login
+ricevere!: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
 
-))vedere: *, *, *, *, *, *, ho visto
+vedere!!: *, *, *, *, *, *, ho visto
 scrivere: *, *, *, *, *, *, ho scritto 
 rescrivere: *, *, *, *, *, *, ho rescritto 
 descrivere: *, *, *, *, *, *, ho descritto 
@@ -123,8 +128,8 @@ spingere: *, *, *, *, *, *, ho spinto
 prendere: *, *, *, *, *, *, ho preso
 scendere: *, *, *, *, *, *, ho sceso // move down
 ascendere: *, *, *, *, *, *, ho asceso // move up
-)leggere: *, *, *, *, *, *, ho letto
-))nascere: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
+leggere!: *, *, *, *, *, *, ho letto
+nascere!!: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
 )mettere: *, *, *, *, *, *, ho rmesso // put/get/place
 permettere: *, *, *, *, *, *, ho permesso
 ))ridere: *, *, *, *, *, *, ho riso // laugh

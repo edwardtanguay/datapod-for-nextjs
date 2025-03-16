@@ -16,10 +16,11 @@ https://github.com/edwardtanguay/datapod-for-nextjs
 
 ## API
 
-- install [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-- see file: test.rest
-- click on "Send Request" for each request you want to test
+-   install [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+-   see file: test.rest
+-   click on "Send Request" for each request you want to test
 
 ## TODO
 
-- some routes are note protected online, authentication is needed
+-   trash can icons don't appear online: https://datapod-for-nextjs.vercel.app/info
+-   some routes are note protected online, authentication is needed
