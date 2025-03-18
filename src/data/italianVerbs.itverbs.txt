@@ -12,7 +12,7 @@ ARE: assicurarsi: make sure: il team DevOps deve assicurarsi che
 IRE: unirsi // to join: molti sviluppatori hanno deciso di unirsi alla community open source; unisciti a me
 
 === ARE =================================
-iRES: -o, -i, -a, -iamo, -ate, -ano 
+PRES: -o, -i, -a, -iamo, -ate, -ano 
 IMPE: -avo, -avi, -ava, -avamo, -avate, -avano
 PAPR: ho/sono -ato
 FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
