@@ -11,7 +11,6 @@ COND: Condizionale presente
 ARE: assicurarsi: make sure: il team DevOps deve assicurarsi che
 IRE: unirsi // to join: molti sviluppatori hanno deciso di unirsi alla community open source; unisciti a me
 
-
 === ARE =================================
 iRES: -o, -i, -a, -iamo, -ate, -ano 
 PAPR: ho/sono -ato
@@ -20,79 +19,80 @@ PARE: -ai, -asti, -ò, -ammo, -aste, -arono
 FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
---- special ARE verbs --------------------------------------------------------------------------------------------------- 
+--- ARE special --------------------------------------------------------------------------------------------------- 
 stare: *, stai, *, *, *, stanno, *
 fare: faccio, fai, *, facciamo, *, fanno, ho fatto
 andare: vado, vai, va, *, *, vanno, *
 dare: *, dai, dà, *, *, danno, ho dato
 
---- regulare ARE verbs --------------------------------------------------------------------------------------------------- 
-parlare: REG
-ascoltare!: REG // listen
-chiamare: REG
-pensare: REG
-creare: REG
-mostrare!: REG
-aspettare: REG // wait, expect
-inviare!: REG // send
-guardare!: REG // watch: guarda cosa c'è sulla schermata
-incollare!: REG // paste
-tirare!: REG // to push
-controllare!!: REG // to check, inspect
-assicurare: REG // ensure/assure/make-sure
-passare: REG
-girare!!: REG // turn/spin
-saltare!!: REG // skip, jump: per ora salteremo questo
-sperare!!: REG // hope
-impostare!!: REG // set/set-up: imposto la password del database
-reimpostare!!: REG // reset: 
-ricordare: REG // FF: remember
-apportare!: REG // bring: l'aggiornamento apporta miglioramenti significativi
-spostare!!: REG // move: abbiamo spostato il file di testo
-esportare!: REG
-importare: REG 
-aggiornare!!: REG // update
-analizzare: REG
-salvare!: REG // save: tu salvi la password nel browser
-tornare!!: REG // return
-rappresentare: REG
-ospitare!!: REG // host
-arrivare: REG
-evitare!!: REG // prevent
-mangiare: REG
-fermare!: REG // stop/halt/end: fermeremo l'esecuzione del progetto
-provare!: REG // try 
-continuare: REG
-testare: REG
-interessare: REG // interest: la nuova versione di React interesserà molti sviluppatori
-eliminare: REG
-cancellare: REG
-completare: REG
-guidare: REG // drive/guide/lead
-iniziare: REG
-utilizzare: REG
-notare: REG
-entrare: REG
-funzionare: REG
-incorporare: REG
-envitare!: REG // avoid
-apprezzare: REG // appreciate
-trattare!: REG // treat, handle: gli argomenti che tratteremo
-regolare!: REG // adjust
-esaminiamo: REG // examine
-affermare: REG // affirm
-diventare!: REG // become
-contattare: REG // contact
+--- ARE regular --------------------------------------------------------------------------------------------------- 
+parlare
+ascoltare! // listen
+chiamare
+pensare
+creare
+mostrare!
+aspettare // wait, expect
+inviare! // send
+guardare! // watch: guarda cosa c'è sulla schermata
+incollare! // paste
+tirare! // to push
+controllare!! // to check, inspect
+assicurare // ensure/assure/make-sure
+passare
+girare!! // turn/spin
+saltare!! // skip, jump: per ora salteremo questo
+sperare!! // hope
+impostare!! // set/set-up: imposto la password del database
+reimpostare!! // reset: 
+ricordare // FF: remember
+apportare! // bring: l'aggiornamento apporta miglioramenti significativi
+spostare!! // move: abbiamo spostato il file di testo
+esportare!
+importare 
+aggiornare!! // update
+analizzare
+salvare! // save: tu salvi la password nel browser
+tornare!! // return
+rappresentare
+ospitare!! // host
+arrivare
+evitare!! // prevent
+mangiare
+fermare! // stop/halt/end: fermeremo l'esecuzione del progetto
+provare! // try 
+continuare
+testare
+interessare // interest: la nuova versione di React interesserà molti sviluppatori
+eliminare
+cancellare
+completare
+guidare // drive/guide/lead
+iniziare
+utilizzare
+notare
+entrare
+funzionare
+incorporare
+envitare! // avoid
+apprezzare // appreciate
+trattare! // treat, handle: gli argomenti che tratteremo
+regolare! // adjust
+esaminiamo // examine
+affermare // affirm
+diventare! // become
+contattare // contact
 
--- 1i verbs --------------------------------------------------------------------------------------------------- 
+-- ARE /i --------------------------------------------------------------------------------------------------- 
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
-))tagliare: *, /i, *, /iamo, *, *, * // cut
+tagliare!: *, /i, *, /iamo, *, *, * // cut
 copiare: *, /i, *, /iamo, *, *, * 
 incoraggiare: *, /i, *, /iamo, *, *, * 
 pronunciare: *, /i, *, /iamo, *, *, *
--- ii verbs --------------------------------------------------------------------------------------------------- 
-)archiviare: *, *, *, /iamo, *, *, * // store
--- chi verbs --------------------------------------------------------------------------------------------------- 
+-- ARE ii --------------------------------------------------------------------------------------------------- 
+archiviare!: *, *, *, /iamo, *, *, * // store
+
+-- ARE chi --------------------------------------------------------------------------------------------------- 
 cercare!: *, -hi, *, -hiamo, *, *, * // search
 applicare: *, -hi, *, -hiamo, *, *, * 
 caricare!!: *, -hi, *, -hiamo, *, *, * // load/upload
@@ -105,11 +105,11 @@ modificare: *, -hi, *, -hiamo, *, *, *
 specificare: *, -hi, *, -hiamo, *, *, *  
 spiegare!!: *, -hi, *, -hiamo, *, *, * // explain
 
---
+-- ARE other --------------------------------------------------------------------------------------------------- 
 cambiare: *, cambi, *, cambiano, *, *, *
-))consigliare: *, consigli, *, consigliamo, *, *, * // recommend
-))uguagliare: *, uguagli, *, uguagliamo, *, *, * // equal
-))riavviare: *, *, *, riavviamo, *, *, * // restart/reboot
+consigliare!!: *, consigli, *, consigliamo, *, *, * // recommend
+uguagliare!!: *, uguagli, *, uguagliamo, *, *, * // equal
+riavviare!!: *, *, *, riavviamo, *, *, * // restart/reboot
 
 === ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
@@ -119,6 +119,7 @@ PARE: -ei, -esti, -é, -emmo, -este, -erono (etti, -, ette, -, -, ettero)
 FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
+-- ERE special --------------------------------------------------------------------------------------------------- 
 avere: ho, hai, ha, abbiamo, *, hanno, *
 essere: sono, sai, è, siamo, seite, sono, è stato // il sistema è stato aggiornato ieri
 volere: voglio, vuoi, vuole, vogliamo, *, vogliono, *
@@ -126,11 +127,13 @@ dovere: devo, devi, deve, dobbiamo, *, devono, *
 potere: posso, puoi, può, possiamo, *, possono, *
 sapere: so, sai, sa, sappiamo, *, sanno, *
 
-credere: REG
-vendere: REG
-accedere: REG // access, log in: l'utente può accedere alla dashboard solo dopo aver effettuato il login
-ricevere!: REG // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
+-- ERE regular --------------------------------------------------------------------------------------------------- 
+credere
+vendere
+accedere // access, log in: l'utente può accedere alla dashboard solo dopo aver effettuato il login
+ricevere! // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
 
+-- ERE participio passato --------------------------------------------------------------------------------------------------- 
 vedere!!: *, *, *, *, *, *, ho visto
 scrivere: *, *, *, *, *, *, ho scritto 
 rescrivere: *, *, *, *, *, *, ho rescritto 
@@ -142,30 +145,32 @@ scendere: *, *, *, *, *, *, ho sceso // move down
 ascendere: *, *, *, *, *, *, ho asceso // move up
 leggere!: *, *, *, *, *, *, ho letto
 nascere!!: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
-)mettere: *, *, *, *, *, *, ho messo // put/get/place
+mettere!: *, *, *, *, *, *, ho messo // put/get/place
 permettere: *, *, *, *, *, *, ho permesso
-))ridere: *, *, *, *, *, *, ho riso // laugh
+ridere!!: *, *, *, *, *, *, ho riso // laugh
 connettere: *, *, *, *, *, *, ho connesso // connect 
-))sorridere: *, *, *, *, *, *, ho sorriso // smile
-))chiudere: *, *, *, *, *, *, ho chiuso // close
-))aggiungere: *, *, *, *, *, *, ho aggiunto 
-)rimuovere: *, *, *, *, *, *, ho rimosso // remove
+sorridere!!: *, *, *, *, *, *, ho sorriso // smile
+chiudere!!: *, *, *, *, *, *, ho chiuso // close
+aggiungere!!: *, *, *, *, *, *, ho aggiunto // add
+rimuovere!: *, *, *, *, *, *, ho rimosso // remove
 risolvere: *, *, *, *, *, *, ho risolto // solve/resolve
 rendere: *, *, *, *, *, *, ho reso // make/render
 corrispondere: *, *, *, *, *, *, ho corrisposto
-))succedere: *, *, *, *, *, *, ho successo // happen: quello che sta succedendo è che
+succedere!!: *, *, *, *, *, *, ho successo // happen: quello che sta succedendo è che
 coinvolgere!!: *, *, *, *, *, *, ho coinvolto // involve
 raggiungere!!: *, *, *, *, *, *, ho raggiunto // reach/achieve
---
-)rimanere: -go, *, *, *, *, -gono, ho remasto
-))ritenere: -go, ritieni, ritiene, *, *, -gono, * // believe/consider: riteniamo che questa soluzione sia la più efficiente
+
+-- ERE go --------------------------------------------------------------------------------------------------- 
+rimanere!: -go, *, *, *, *, -gono, ho remasto
+ritenere!!: -go, ritieni, ritiene, *, *, -gono, * // believe/consider: riteniamo che questa soluzione sia la più efficiente
 mantenere: -go, mantieni, mantiene, *, *, -gono, * 
-)ottenere: -go, ottieni, ottiene, *, *, -gono, * // obtain
+ottenere!: -go, ottieni, ottiene, *, *, -gono, * // obtain
 contenere: -go, contieni, contiene, *, *, -gono, *
---
-))scegliere: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto // choose
+-- ERE go2 --------------------------------------------------------------------------------------------------- 
+scegliere!: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto // choose
 togliere: tolgo, togli, *, togliamo, *, tolgono, ho tolto // remove
---
+
+-- ERE cio --------------------------------------------------------------------------------------------------- 
 piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto // like: mi piace, mi piacciono, mi è piaciuto molto il nuovo aggiornamento dell'app
 
 === IRE =================================
@@ -176,31 +181,36 @@ PARE: -ii, -isti, -ì, -immo, -iste, -irono
 FUTU: -irò, -irai, -irà, -iremo, -irete, -iranno
 COND: -irei, -iresti, -irebbe, -iremmo, -ireste, -irebbero
 
+-- IRE special --------------------------------------------------------------------------------------------------- 
 dire: dico, dici, dice, diciamo, *, dicono, ho detto
 venire - vengo, vieni, viene, veniamo, *, vengono, *
 
-partire: REG
-aprire: REG
-riuscire!: REG // be able to, succeed
-dormire: REG
-convertire: REG
-eseguire!: REG // execute/run: lo script esegue cinque volte al giorno
-consentire!!: REG // FF: allow: questa applicazione consente di gestire i dati in tempo reale
-sentire!!: REG // hear: ho sentito parlare di un nuovo aggiornamento per il framework Vue.js
+-- IRE regular --------------------------------------------------------------------------------------------------- 
+partire
+aprire
+riuscire! // be able to, succeed
+dormire
+convertire
+eseguire! // execute/run: lo script esegue cinque volte al giorno
+consentire!! // FF: allow: questa applicazione consente di gestire i dati in tempo reale
+sentire!! // hear: ho sentito parlare di un nuovo aggiornamento per il framework Vue.js
 
+-- IRE isco --------------------------------------------------------------------------------------------------- 
 capire: -isco, -isci, -isce, *, *, -iscono, *
 finire: -isco, -isci, -isce, *, *, -iscono, *
 definire: -isco, -isci, -isce, *, *, -iscono, *
-))pulire: -isco, -isci, -isce, *, *, -iscono, * // clean
-))fornire: -isco, -isci, -isce, *, *, -iscono, * // provide
+pulire!!: -isco, -isci, -isce, *, *, -iscono, * // clean
+fornire!!: -isco, -isci, -isce, *, *, -iscono, * // provide
 inserire: -isco, -isci, -isce, *, *, -iscono, * // insert
-))restituire: -isco, -isci, -isce, *, *, -iscono, * // return (a value)
+restituire!!: -isco, -isci, -isce, *, *, -iscono, * // return (a value)
 sostituire!!: -isco, -isci, -isce, *, *, -iscono, * // replace
 ridistribuire: -isco, -isci, -isce, *, *, -iscono, * // redeploy 
 impedire!: -isco, -isci, -isce, *, *, -iscono, * // prevent
----
+
+-- IRE participio passato --------------------------------------------------------------------------------------------------- 
 coprire!!: *, *, *, *, *, *, coperto, // to cover: lo copriremo in questo corso
----
+
+-- IRE other --------------------------------------------------------------------------------------------------- 
 apparire: /io, *, *, *, *, /iono
 uscire: esco, esci, esce, *, *, escono
 morire: muoio, muori, muore, *, *, muiono, ho morto
