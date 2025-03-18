@@ -152,7 +152,8 @@ rescrivere: *, *, *, *, *, *, ho rescritto
 descrivere: *, *, *, *, *, *, ho descritto 
 discutere: *, *, *, *, *, *, ho discusso
 spingere!!: *, *, *, *, *, *, ho spinto // push
-prendere: *, *, *, *, *, *, ho preso
+rendere: *, *, *, *, *, *, ho reso // make/render
+prendere: *, *, *, *, *, *, ho preso // take
 scendere: *, *, *, *, *, *, ho sceso // move down
 ascendere: *, *, *, *, *, *, ho asceso // move up
 leggere!: *, *, *, *, *, *, ho letto
@@ -166,7 +167,6 @@ chiudere!!: *, *, *, *, *, *, ho chiuso // close
 aggiungere!!: *, *, *, *, *, *, ho aggiunto // add
 rimuovere!: *, *, *, *, *, *, ho rimosso // remove
 risolvere: *, *, *, *, *, *, ho risolto // solve/resolve
-rendere: *, *, *, *, *, *, ho reso // make/render
 corrispondere: *, *, *, *, *, *, ho corrisposto
 succedere!!: *, *, *, *, *, *, ho successo // happen: quello che sta succedendo è che
 coinvolgere!!: *, *, *, *, *, *, ho coinvolto // involve
@@ -175,10 +175,11 @@ dividere: *, *, *, *, *, *, ho diviso
 esistere: *, *, *, *, *, *, sono esistito // exist
 correggere: *, *, *, *, *, *, ho corretto
 rompere!!: *, *, *, *, *, *, ho rotto // break
+vincere!: *, *, *, *, *, *, ho vinto // win
 
 
 -- ERE go --------------------------------------------------------------------------------------------------- 
-rimanere!: -go, *, *, *, *, -gono, ho remasto
+rimanere!: -go, *, *, *, *, -gono, ho remasto // remain
 ritenere!!: -go, ritieni, ritiene, *, *, -gono, * // believe/consider: riteniamo che questa soluzione sia la più efficiente
 mantenere: -go, mantieni, mantiene, *, *, -gono, * 
 ottenere!: -go, ottieni, ottiene, *, *, -gono, * // obtain
@@ -198,6 +199,9 @@ produrre: -uco, -uci, -uce, -uciamo, -ucete, -ucono, -otto // produce
 tradurre: -uco, -uci, -uce, -uciamo, -ucete, -ucono, -otto // translate
 condurre -uco, -uci, -uce, -uciamo, -ucete, -ucono, -otto // conduct, lead, carry out
 
+-- ERE root --------------------------------------------------------------------------------------------------- 
+bere: bev- // drink
+
 === IRE =================================
 PRES: -o, -i, -e, -iamo, -ite, -ono 
 IMPE: -ivo, -ivi, -iva, -ivamo, -ivate, -ivano
@@ -207,12 +211,12 @@ COND: -irei, -iresti, -irebbe, -iremmo, -ireste, -irebbero
 PARE: -ii, -isti, -ì, -immo, -iste, -irono
 
 -- IRE special --------------------------------------------------------------------------------------------------- 
+venire - vengo, vieni, viene, *, *, vengono, *
 dire: dico, dici, dice, diciamo, *, dicono, ho detto
-venire - vengo, vieni, viene, veniamo, *, vengono, *
+uscire: esco, esci, esce, *, *, escono, *
 
 -- IRE regular --------------------------------------------------------------------------------------------------- 
 partire
-aprire
 riuscire! // be able to, succeed
 dormire
 convertire
@@ -234,11 +238,15 @@ impedire!: -isco, -isci, -isce, *, *, -iscono, * // prevent
 
 -- IRE participio passato --------------------------------------------------------------------------------------------------- 
 coprire!!: *, *, *, *, *, *, coperto, // to cover: lo copriremo in questo corso
+scoprire!!: *, *, *, *, *, *, scoperto, // to find out 
+offrire: *, *, *, *, *, *, offerto
+aprire!: *, *, *, *, *, *, aperto  // open
 
 -- IRE other --------------------------------------------------------------------------------------------------- 
 apparire: /io, *, *, *, *, /iono
-uscire: esco, esci, esce, *, *, escono
 morire: muoio, muori, muore, *, *, muiono, ho morto
+salire!: -go, *, *, *, *, -gono, ho salito // climb, (get on a train)
 
 === connector words =======================
 di solito - usually
+scorso - last (l'anno scorso)
