@@ -48,10 +48,10 @@ impostare!!: REG // set/set-up: imposto la password del database
 reimpostare!!: REG // reset: 
 ricordare: REG // FF: remember
 apportare!: REG // bring: l'aggiornamento apporta miglioramenti significativi
-))spostare: REG // move: abbiamo spostato il file di testo
-)esportare: REG
+spostare!!: REG // move: abbiamo spostato il file di testo
+esportare!: REG
 importare: REG 
-))aggiornare: REG // update
+aggiornare!!: REG // update
 analizzare: REG
 salvare!: REG // save: tu salvi la password nel browser
 tornare!!: REG // return
@@ -60,8 +60,8 @@ ospitare!!: REG // host
 arrivare: REG
 evitare!!: REG // prevent
 mangiare: REG
-)fermare: REG // stop/halt/end: fermeremo l'esecuzione del progetto
-))provare: REG // try 
+fermare!: REG // stop/halt/end: fermeremo l'esecuzione del progetto
+provare!: REG // try 
 continuare: REG
 testare: REG
 interessare: REG // interest: la nuova versione di React interesserà molti sviluppatori
@@ -75,13 +75,15 @@ notare: REG
 entrare: REG
 funzionare: REG
 incorporare: REG
-)envitare: REG // avoid
+envitare!: REG // avoid
 apprezzare: REG // appreciate
 trattare!: REG // treat, handle: gli argomenti che tratteremo
 regolare!: REG // adjust
 esaminiamo: REG // examine
 affermare: REG // affirm
 diventare!: REG // become
+contattare: REG // contact
+
 -- 1i verbs --------------------------------------------------------------------------------------------------- 
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
 ))tagliare: *, /i, *, /iamo, *, *, * // cut
