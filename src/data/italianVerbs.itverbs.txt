@@ -80,15 +80,15 @@ regolare!: REG // adjust
 esaminiamo: REG // examine
 affermare: REG // affirm
 diventare!: REG // become
--- 1i verbs
+-- 1i verbs --------------------------------------------------------------------------------------------------- 
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
 ))tagliare: *, /i, *, /iamo, *, *, * // cut
 copiare: *, /i, *, /iamo, *, *, * 
 incoraggiare: *, /i, *, /iamo, *, *, * 
 pronunciare: *, /i, *, /iamo, *, *, *
--- ii verbs
+-- ii verbs --------------------------------------------------------------------------------------------------- 
 )archiviare: *, *, *, /iamo, *, *, * // store
--- chi verbs
+-- chi verbs --------------------------------------------------------------------------------------------------- 
 cercare!: *, -hi, *, -hiamo, *, *, * // search
 applicare: *, -hi, *, -hiamo, *, *, * 
 caricare!!: *, -hi, *, -hiamo, *, *, * // load/upload
