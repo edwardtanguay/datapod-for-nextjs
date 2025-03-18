@@ -1,4 +1,4 @@
-/---------------------------------------------------------------------------------*
+*/---------------------------------------------------------------------------------*
 PRES: Presente
 PAPR: Passato prossimo - ho/hai/ha/abbiamo/avete/hanno, sono/sei/è/siamo/siete/sono
 IMPE: Imperfetto
@@ -13,11 +13,11 @@ IRE: unirsi // to join: molti sviluppatori hanno deciso di unirsi alla community
 
 === ARE =================================
 iRES: -o, -i, -a, -iamo, -ate, -ano 
-PAPR: ho/sono -ato
 IMPE: -avo, -avi, -ava, -avamo, -avate, -avano
-PARE: -ai, -asti, -ò, -ammo, -aste, -arono
+PAPR: ho/sono -ato
 FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
+PARE: -ai, -asti, -ò, -ammo, -aste, -arono
 
 --- ARE special --------------------------------------------------------------------------------------------------- 
 stare: *, stai, *, *, *, stanno, *
@@ -82,6 +82,14 @@ esaminiamo // examine
 affermare // affirm
 diventare! // become
 contattare // contact
+impegnare // engage/commit: che ti sei impegnato con
+sognare!! // dream
+sposare! // marry
+portare! // bring
+presentare 
+ballare! // dance
+telefonare
+lavare // wash
 
 -- ARE /i --------------------------------------------------------------------------------------------------- 
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
@@ -89,6 +97,7 @@ tagliare!: *, /i, *, /iamo, *, *, * // cut
 copiare: *, /i, *, /iamo, *, *, * 
 incoraggiare: *, /i, *, /iamo, *, *, * 
 pronunciare: *, /i, *, /iamo, *, *, *
+baciare!!: *, /i, *, /iamo, *, *, * // kiss
 -- ARE ii --------------------------------------------------------------------------------------------------- 
 archiviare!: *, *, *, /iamo, *, *, * // store
 
@@ -104,20 +113,22 @@ pubblicare: *, -hi, *, -hiamo, *, *, *
 modificare: *, -hi, *, -hiamo, *, *, * 
 specificare: *, -hi, *, -hiamo, *, *, *  
 spiegare!!: *, -hi, *, -hiamo, *, *, * // explain
+pagar: *, -hi, *, -hiamo, *, *, * // explain
 
 -- ARE other --------------------------------------------------------------------------------------------------- 
 cambiare: *, cambi, *, cambiano, *, *, *
 consigliare!!: *, consigli, *, consigliamo, *, *, * // recommend
 uguagliare!!: *, uguagli, *, uguagliamo, *, *, * // equal
+avviare!!: *, *, *, avviamo, *, *, * // start/boot
 riavviare!!: *, *, *, riavviamo, *, *, * // restart/reboot
 
 === ERE =================================
 PRES: -o, -i, -e, -iamo, -ete, -ono 
-PAPR: ho/sono -uto
 IMPE: -evo, -evi, -eva, -evamo, -evate, -evano
-PARE: -ei, -esti, -é, -emmo, -este, -erono (etti, -, ette, -, -, ettero)
+PAPR: ho/sono -uto
 FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
+PARE: -ei, -esti, -é, -emmo, -este, -erono (etti, -, ette, -, -, ettero)
 
 -- ERE special --------------------------------------------------------------------------------------------------- 
 avere: ho, hai, ha, abbiamo, *, hanno, *
@@ -128,10 +139,11 @@ potere: posso, puoi, può, possiamo, *, possono, *
 sapere: so, sai, sa, sappiamo, *, sanno, *
 
 -- ERE regular --------------------------------------------------------------------------------------------------- 
-credere
+credere! // believe
 vendere
-accedere // access, log in: l'utente può accedere alla dashboard solo dopo aver effettuato il login
+accedere! // access, log in: l'utente può accedere alla dashboard solo dopo aver effettuato il login
 ricevere! // receive: quando ricevi una notifica sul tuo dispositivo, puoi visualizzarla direttamente nella barra delle notifiche
+cadere!! // to fall
 
 -- ERE participio passato --------------------------------------------------------------------------------------------------- 
 vedere!!: *, *, *, *, *, *, ho visto
@@ -159,6 +171,11 @@ corrispondere: *, *, *, *, *, *, ho corrisposto
 succedere!!: *, *, *, *, *, *, ho successo // happen: quello che sta succedendo è che
 coinvolgere!!: *, *, *, *, *, *, ho coinvolto // involve
 raggiungere!!: *, *, *, *, *, *, ho raggiunto // reach/achieve
+dividere: *, *, *, *, *, *, ho diviso
+esistere: *, *, *, *, *, *, sono esistito // exist
+correggere: *, *, *, *, *, *, ho corretto
+rompere!!: *, *, *, *, *, *, ho rotto // break
+
 
 -- ERE go --------------------------------------------------------------------------------------------------- 
 rimanere!: -go, *, *, *, *, -gono, ho remasto
@@ -166,20 +183,28 @@ ritenere!!: -go, ritieni, ritiene, *, *, -gono, * // believe/consider: riteniamo
 mantenere: -go, mantieni, mantiene, *, *, -gono, * 
 ottenere!: -go, ottieni, ottiene, *, *, -gono, * // obtain
 contenere: -go, contieni, contiene, *, *, -gono, *
+tenere!: -go, tieni, tiene, *, *, -gono, * // take, keep, hold
 -- ERE go2 --------------------------------------------------------------------------------------------------- 
 scegliere!: scelgo, scegli, *, scegliamo, *, scelgono, ho scelto // choose
 togliere: tolgo, togli, *, togliamo, *, tolgono, ho tolto // remove
 
 -- ERE cio --------------------------------------------------------------------------------------------------- 
 piacere: -cio, *, *, -ciamo, *, -ciono, ho piaciuto // like: mi piace, mi piacciono, mi è piaciuto molto il nuovo aggiornamento dell'app
+giacere: -cio, *, *, -ciamo, *, -ciono, ho giaciuto // lie (rest/recline): il libro giace sul tavolo
+nuocere!!: -cio, *, *, -ciamo, *, -ciono, ho nociuto // harm 
+
+-- ERE urre --------------------------------------------------------------------------------------------------- 
+produrre: -uco, -uci, -uce, -uciamo, -ucete, -ucono, -otto // produce
+tradurre: -uco, -uci, -uce, -uciamo, -ucete, -ucono, -otto // translate
+condurre -uco, -uci, -uce, -uciamo, -ucete, -ucono, -otto // conduct, lead, carry out
 
 === IRE =================================
 PRES: -o, -i, -e, -iamo, -ite, -ono 
-PAPR: ho/sono -ito
 IMPE: -ivo, -ivi, -iva, -ivamo, -ivate, -ivano
-PARE: -ii, -isti, -ì, -immo, -iste, -irono
+PAPR: ho/sono -ito
 FUTU: -irò, -irai, -irà, -iremo, -irete, -iranno
 COND: -irei, -iresti, -irebbe, -iremmo, -ireste, -irebbero
+PARE: -ii, -isti, -ì, -immo, -iste, -irono
 
 -- IRE special --------------------------------------------------------------------------------------------------- 
 dire: dico, dici, dice, diciamo, *, dicono, ho detto
@@ -214,3 +239,6 @@ coprire!!: *, *, *, *, *, *, coperto, // to cover: lo copriremo in questo corso
 apparire: /io, *, *, *, *, /iono
 uscire: esco, esci, esce, *, *, escono
 morire: muoio, muori, muore, *, *, muiono, ho morto
+
+=== connector words =======================
+di solito - usually
