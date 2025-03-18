@@ -1,4 +1,4 @@
-/*
+/---------------------------------------------------------------------------------*
 PRES: Presente
 PAPR: Passato prossimo - ho/hai/ha/abbiamo/avete/hanno, sono/sei/è/siamo/siete/sono
 IMPE: Imperfetto
@@ -20,11 +20,13 @@ PARE: -ai, -asti, -ò, -ammo, -aste, -arono
 FUTU: -erò, -erai, -erà, -eremo, -erete, -eranno
 COND: -erei, -eresti, -erebbe, -eremmo, -ereste, -erebbero
 
+--- special ARE verbs --------------------------------------------------------------------------------------------------- 
 stare: *, stai, *, *, *, stanno, *
 fare: faccio, fai, *, facciamo, *, fanno, ho fatto
 andare: vado, vai, va, *, *, vanno, *
 dare: *, dai, dà, *, *, danno, ho dato
 
+--- regulare ARE verbs --------------------------------------------------------------------------------------------------- 
 parlare: REG
 ascoltare!: REG // listen
 chiamare: REG
@@ -138,7 +140,7 @@ scendere: *, *, *, *, *, *, ho sceso // move down
 ascendere: *, *, *, *, *, *, ho asceso // move up
 leggere!: *, *, *, *, *, *, ho letto
 nascere!!: *, *, *, *, *, *, ho nato // be born: lei è nata nel 1995
-)mettere: *, *, *, *, *, *, ho rmesso // put/get/place
+)mettere: *, *, *, *, *, *, ho messo // put/get/place
 permettere: *, *, *, *, *, *, ho permesso
 ))ridere: *, *, *, *, *, *, ho riso // laugh
 connettere: *, *, *, *, *, *, ho connesso // connect 
@@ -150,6 +152,8 @@ risolvere: *, *, *, *, *, *, ho risolto // solve/resolve
 rendere: *, *, *, *, *, *, ho reso // make/render
 corrispondere: *, *, *, *, *, *, ho corrisposto
 ))succedere: *, *, *, *, *, *, ho successo // happen: quello che sta succedendo è che
+coinvolgere!!: *, *, *, *, *, *, ho coinvolto // involve
+raggiungere!!: *, *, *, *, *, *, ho raggiunto // reach/achieve
 --
 )rimanere: -go, *, *, *, *, -gono, ho remasto
 ))ritenere: -go, ritieni, ritiene, *, *, -gono, * // believe/consider: riteniamo che questa soluzione sia la più efficiente
