@@ -9,7 +9,8 @@ COND: Condizionale presente
 
 === REFLEXIVE =============================
 ARE: assicurarsi: make sure: il team DevOps deve assicurarsi che
-IRE: unirsi, to join: molti sviluppatori hanno deciso di unirsi alla community open source
+IRE: unirsi // to join: molti sviluppatori hanno deciso di unirsi alla community open source; unisciti a me
+
 
 === ARE =================================
 iRES: -o, -i, -a, -iamo, -ate, -ano 
@@ -76,13 +77,18 @@ incorporare: REG
 apprezzare: REG // appreciate
 trattare!: REG // treat, handle: gli argomenti che tratteremo
 regolare!: REG // adjust
---
+esaminiamo: REG // examine
+affermare: REG // affirm
+diventare!: REG // become
+-- 1i verbs
 lasciare: *, /i, *, /iamo, *, *, * // leave/let
 ))tagliare: *, /i, *, /iamo, *, *, * // cut
 copiare: *, /i, *, /iamo, *, *, * 
+incoraggiare: *, /i, *, /iamo, *, *, * 
+pronunciare: *, /i, *, /iamo, *, *, *
+-- ii verbs
 )archiviare: *, *, *, /iamo, *, *, * // store
-pronunciare: *, *, *, /iamo, *, *, *
---
+-- chi verbs
 cercare!: *, -hi, *, -hiamo, *, *, * // search
 applicare: *, -hi, *, -hiamo, *, *, * 
 caricare!!: *, -hi, *, -hiamo, *, *, * // load/upload
@@ -93,6 +99,8 @@ cliccare: *, -hi, *, -hiamo, *, *, *
 pubblicare: *, -hi, *, -hiamo, *, *, * 
 modificare: *, -hi, *, -hiamo, *, *, * 
 specificare: *, -hi, *, -hiamo, *, *, *  
+spiegare!!: *, -hi, *, -hiamo, *, *, * // explain
+
 --
 cambiare: *, cambi, *, cambiano, *, *, *
 ))consigliare: *, consigli, *, consigliamo, *, *, * // recommend
@@ -124,7 +132,7 @@ scrivere: *, *, *, *, *, *, ho scritto
 rescrivere: *, *, *, *, *, *, ho rescritto 
 descrivere: *, *, *, *, *, *, ho descritto 
 discutere: *, *, *, *, *, *, ho discusso
-spingere: *, *, *, *, *, *, ho spinto
+spingere!!: *, *, *, *, *, *, ho spinto // push
 prendere: *, *, *, *, *, *, ho preso
 scendere: *, *, *, *, *, *, ho sceso // move down
 ascendere: *, *, *, *, *, *, ho asceso // move up
@@ -184,6 +192,8 @@ inserire: -isco, -isci, -isce, *, *, -iscono, * // insert
 sostituire!!: -isco, -isci, -isce, *, *, -iscono, * // replace
 ridistribuire: -isco, -isci, -isce, *, *, -iscono, * // redeploy 
 impedire!: -isco, -isci, -isce, *, *, -iscono, * // prevent
+---
+coprire!!: *, *, *, *, *, *, coperto, // to cover: lo copriremo in questo corso
 ---
 apparire: /io, *, *, *, *, /iono
 uscire: esco, esci, esce, *, *, escono
